@@ -4,6 +4,10 @@ A simple decentralized marketplace where users can **buy items using cryptocurre
 
 This project demonstrates how to **connect a smart contract to a frontend application** using Next.js, Hardhat, and the Base Sepolia testnet.
 
+## 🎥 Demo Video
+
+https://github.com/oyingrace/simple-onchain-marketplace/public/oyingrace/demo-video.mp4
+
 ---
 
 ## ⚙️ How It All Works
