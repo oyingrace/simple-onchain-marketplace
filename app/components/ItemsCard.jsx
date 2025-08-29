@@ -1,15 +1,68 @@
 "use client";
 
 import React from 'react';
+import { useContract } from '../../lib/useContract.js';
 
 const ItemsCard = ({ items = [] }) => {
-  const handleBuy = (itemId, itemName, price) => {
-    console.log(`Purchasing ${itemName} (ID: ${itemId}) for ${price}`);
-    // Add your purchase logic here
+  const {
+    walletAddress,
+    isConnected,
+    isConnecting,
+    message,
+    connectWallet,
+    disconnectWallet,
+    buyItem,
+    clearMessage,
+  } = useContract();
+
+  const handleBuy = async (itemId, itemName, price) => {
+    const success = await buyItem(itemId, itemName, price);
+    if (success) {
+      // Purchase was successful
+      console.log(`Successfully purchased ${itemName}`);
+    }
   };
 
   return (
     <div className="container mx-auto px-4 py-6">
+      
+
+      <div className="mb-6 text-center">
+        {!isConnected ? (
+          <button
+            onClick={connectWallet}
+            disabled={isConnecting}
+            className="bg-indigo-600 hover:bg-indigo-700 disabled:bg-gray-400 text-white font-medium py-2 px-6 rounded-lg transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+          >
+            {isConnecting ? 'Connecting...' : 'Connect Wallet'}
+          </button>
+        ) : (
+          <div className="flex items-center justify-center gap-4">
+            <div className="text-sm text-gray-600">
+              <span className="font-medium">Connected:</span> {walletAddress.slice(0, 6)}...{walletAddress.slice(-4)}
+            </div>
+            <button
+              onClick={disconnectWallet}
+              className="text-sm text-red-600 hover:text-red-800 underline"
+            >
+              Disconnect
+            </button>
+          </div>
+        )}
+        
+        {message && (
+          <div className={`mt-2 text-sm ${message.includes('✅') ? 'text-green-600' : message.includes('❌') ? 'text-red-600' : 'text-blue-600'}`}>
+            {message}
+            <button
+              onClick={clearMessage}
+              className="ml-2 text-gray-400 hover:text-gray-600"
+            >
+              ×
+            </button>
+          </div>
+        )}
+      </div>
+
       <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-7xl mx-auto mt-5">
         {items.map((item) => (
           <div
@@ -41,9 +94,14 @@ const ItemsCard = ({ items = [] }) => {
 
               <button
                 onClick={() => handleBuy(item.itemId, item.itemName, item.price)}
-                className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-1.5 sm:py-2 px-2 sm:px-3 rounded-md transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 text-xs sm:text-sm"
+                disabled={!isConnected}
+                className={`w-full font-medium py-1.5 sm:py-2 px-2 sm:px-3 rounded-md transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 text-xs sm:text-sm ${
+                  !isConnected 
+                    ? 'bg-gray-400 cursor-not-allowed' 
+                    : 'bg-indigo-600 hover:bg-indigo-700 text-white'
+                }`}
               >
-                Buy Now
+                {!isConnected ? 'Connect Wallet' : 'Buy Now'}
               </button>
             </div>
           </div>
@@ -65,7 +123,7 @@ const ItemsCard = ({ items = [] }) => {
   );
 };
 
-// Example usage with sample data
+// Headset Data
 const App = () => {
   const sampleItems = [
     {
