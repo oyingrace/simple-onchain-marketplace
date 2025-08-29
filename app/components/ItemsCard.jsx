@@ -71,19 +71,19 @@ const App = () => {
     {
       itemId: "HS001",
       itemName: "Headset-Black",
-      price: "0.05 ETH",
+      price: "0.000005 ETH",
       image: "/black.png"
     },
     {
       itemId: "HS002", 
       itemName: "Headset-Red",
-      price: "0.05 ETH",
+      price: "0.000005 ETH",
       image: "/red.png"
     },
     {
       itemId: "HS003",
       itemName: "Headset-Blue",
-      price: "0.05 ETH", 
+      price: "0.000005 ETH", 
       image: "/blue.png"
     }
   ];
