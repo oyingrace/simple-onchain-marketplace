@@ -123,7 +123,7 @@ const ItemsCard = ({ items = [] }) => {
   );
 };
 
-// Headset Data
+// Headset Items Data
 const App = () => {
   const sampleItems = [
     {
