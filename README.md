@@ -6,7 +6,7 @@ This project demonstrates how to **connect a smart contract to a frontend applic
 
 ## 🎥 Demo Video
 
-https://github.com/oyingrace/simple-onchain-marketplace/public/oyingrace/demo-video.mp4
+https://github.com/oyingrace/simple-onchain-marketplace/blob/main/public/demo-video.mp4
 
 ---
 
