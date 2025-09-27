@@ -8,6 +8,9 @@
     "start": "next start"
   },
   "dependencies": {
+    "@reown/appkit": "^1.8.7",
+    "@reown/appkit-common": "^1.8.7",
+    "@reown/appkit-universal-connector": "^1.8.7",
     "@reown/walletkit": "^1.2.11",
     "@walletconnect/core": "^2.21.9",
     "@walletconnect/utils": "^2.21.9",

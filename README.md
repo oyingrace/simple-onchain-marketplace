@@ -56,6 +56,7 @@ Fill in the values:
 ```env
 PRIVATE_KEY=your-wallet-private-key
 ALCHEMY_RPC=your-alchemy-network-url
+NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID=your-walletconnect-project-id
 ```
 
 **Where to get these values:**
@@ -66,6 +67,10 @@ ALCHEMY_RPC=your-alchemy-network-url
   2. Create an app
   3. Select Base as the chain, Sepolia as the network
   4. Copy the HTTP URL and paste it here
+- **NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID**: From WalletConnect
+  1. Go to [WalletConnect Dashboard](https://dashboard.reown.com/)
+  2. Create a new project
+  3. Copy the Project ID and paste it here
 
 ### 4. Deploy the Smart Contract
 
@@ -101,13 +106,13 @@ Visit [http://localhost:3000](http://localhost:3000) to interact with the app.
 - **Blockchain**: Base Sepolia Testnet
 - **Frontend**: React, Next.js, Tailwind CSS
 - **Web3 Provider**: Alchemy
-- **Wallet Integration**: MetaMask
+- **Wallet Integration**: WalletConnect (supports 300+ wallets)
 
 ---
 
 ## ✅ Features
 
-- **Wallet Connection**: Connect MetaMask to Base Sepolia testnet
+- **Wallet Connection**: Connect 300+ wallets via WalletConnect to Base Sepolia testnet
 - **Item Display**: Show marketplace items with images and prices
 - **Purchase Functionality**: Buy items directly with ETH through smart contract
 - **Transaction Confirmation**: Real-time transaction status and confirmation
@@ -132,7 +137,7 @@ Visit [http://localhost:3000](http://localhost:3000) to interact with the app.
 ## 🚨 Important Notes
 
 - **Testnet Only**: This project uses Base Sepolia testnet for development
-- **MetaMask Required**: Users need MetaMask or a compatible wallet
+- **Wallet Required**: Users need any WalletConnect-compatible wallet (300+ options)
 - **Gas Fees**: Transactions require small amounts of test ETH for gas fees
 - **Network Switching**: The app automatically prompts users to switch to Base Sepolia
 
@@ -142,8 +147,9 @@ Visit [http://localhost:3000](http://localhost:3000) to interact with the app.
 
 ### Common Issues:
 
-1. **"MetaMask is not installed"**
-   - Install MetaMask browser extension
+1. **"Failed to initialize WalletConnect"**
+   - Check your WalletConnect Project ID in environment variables
+   - Ensure you have a valid project ID from dashboard.reown.com
 
 2. **"Wrong network"**
    - The app will prompt you to switch to Base Sepolia
