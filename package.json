@@ -8,6 +8,9 @@
     "start": "next start"
   },
   "dependencies": {
+    "@reown/walletkit": "^1.2.11",
+    "@walletconnect/core": "^2.21.9",
+    "@walletconnect/utils": "^2.21.9",
     "dotenv": "^17.2.1",
     "next": "15.5.2",
     "react": "19.1.0",
