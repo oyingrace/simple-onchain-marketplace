@@ -34,7 +34,7 @@ sequenceDiagram
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/simple-onchain-marketplace.git
+git clone https://github.com/oyingrace/simple-onchain-marketplace.git
 cd simple-onchain-marketplace
 npm install
 ```
