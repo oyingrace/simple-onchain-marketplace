@@ -1,8 +1,8 @@
 # 🛒 Simple Onchain Marketplace
 
-A simple decentralized marketplace where users can **buy items using cryptocurrency (ETH)** through a **smart contract** deployed on the blockchain.  
+A decentralized marketplace where users can **buy items using cryptocurrency (ETH)** through **smart contracts** deployed on the blockchain. Features include **seller registration**, **payment routing to sellers**, and **on-chain purchase tracking**.
 
-This project demonstrates how to **connect a smart contract to a frontend application** using Next.js, Hardhat, and the Base Sepolia testnet.
+This project demonstrates how to **connect multiple smart contracts to a frontend application** using Next.js, Hardhat, and the Base Sepolia testnet.
 
 ## 🎥 Demo Video
 
@@ -18,13 +18,26 @@ sequenceDiagram
     participant ItemsCard.jsx
     participant useContract.js
     participant contract.js
-    participant SmartContract
+    participant Marketplace
+    participant SellerRegistry
 
+    User->>ItemsCard.jsx: Registers as Seller
+    ItemsCard.jsx->>SellerRegistry: Register seller with name
+    SellerRegistry->>User: Seller registered
+    
+    User->>ItemsCard.jsx: Assigns item to seller
+    ItemsCard.jsx->>Marketplace: Assign item to seller
+    Marketplace->>SellerRegistry: Verify seller
+    SellerRegistry->>Marketplace: Seller verified
+    
     User->>ItemsCard.jsx: Clicks "Buy Now"
-    ItemsCard.jsx->>useContract.js: Calls useContract hook
+    ItemsCard.jsx->>useContract.js: Calls buyItem
     useContract.js->>contract.js: Invokes purchase function
-    contract.js->>SmartContract: Sends transaction to blockchain
-    SmartContract->>User: Executes purchase & returns confirmation
+    contract.js->>Marketplace: Sends transaction with ETH
+    Marketplace->>SellerRegistry: Get seller for item
+    SellerRegistry->>Marketplace: Return seller address
+    Marketplace->>Seller: Transfer ETH to seller
+    Marketplace->>User: Purchase confirmed
 ```
 
 ---
@@ -72,21 +85,28 @@ NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID=your-walletconnect-project-id
   2. Create a new project
   3. Copy the Project ID and paste it here
 
-### 4. Deploy the Smart Contract
+### 4. Deploy the Smart Contracts
 
-Run the deployment script:
+Run the deployment script to deploy both contracts:
 
 ```bash
 npx hardhat run scripts/deploy.ts --network baseSepolia
 ```
 
-Copy the deployed contract address from the output.
+The script will deploy:
+1. **SellerRegistry** - Manages seller registration and item-to-seller mapping
+2. **SimpleMarketplace** - Handles purchases and payment routing
 
-Update `lib/contract.js` with your deployed contract address:
+Copy both deployed contract addresses from the output.
+
+Update `lib/contract.js` with your deployed contract addresses:
 
 ```javascript
-const CONTRACT_ADDRESS = '0xYourDeployedContractAddress';
+const MARKETPLACE_ADDRESS = '0xYourMarketplaceAddress';
+const SELLER_REGISTRY_ADDRESS = '0xYourSellerRegistryAddress';
 ```
+
+**Important**: The Marketplace contract requires the SellerRegistry address in its constructor, so SellerRegistry must be deployed first (which the script does automatically).
 
 ### 5. Run the Frontend
 
@@ -97,6 +117,21 @@ npm run dev
 ```
 
 Visit [http://localhost:3000](http://localhost:3000) to interact with the app.
+
+### 6. Using the Marketplace
+
+#### For Sellers:
+1. **Connect your wallet** using WalletConnect
+2. **Register as a seller** by clicking "Register as Seller" and entering your seller name
+3. **Assign items to yourself** (you'll need to implement this or use a script)
+4. **Receive payments** directly to your wallet when items are purchased
+
+#### For Buyers:
+1. **Connect your wallet** using WalletConnect
+2. **Browse items** with seller information displayed
+3. **Click "Buy Now"** to purchase items with ETH
+4. **Confirm transaction** in your wallet
+5. **Payment goes directly to the seller**
 
 ---
 
@@ -110,27 +145,82 @@ Visit [http://localhost:3000](http://localhost:3000) to interact with the app.
 
 ---
 
+## 📁 Project Structure
+
+```
+simple-onchain-marketplace/
+├── contracts/
+│   ├── SimpleMarketplace.sol    # Main marketplace contract
+│   └── SellerRegistry.sol        # Seller registration contract
+├── lib/
+│   ├── contract.js               # Smart contract integration
+│   ├── useContract.js            # React hook for contract
+│   └── walletConnectConfig.js    # WalletConnect configuration
+├── app/
+│   ├── components/
+│   │   └── ItemsCard.jsx         # Main marketplace component
+│   ├── layout.js
+│   └── page.js
+├── scripts/
+│   └── deploy.ts                 # Deployment script
+└── hardhat.config.ts
+```
+
+---
+
 ## ✅ Features
 
 - **Wallet Connection**: Connect 300+ wallets via WalletConnect to Base Sepolia testnet
-- **Item Display**: Show marketplace items with images and prices
+- **Seller Registration**: Register as a seller with a custom name
+- **Item Display**: Show marketplace items with images, prices, and seller information
+- **Payment Routing**: Payments automatically go to sellers' wallets (not stuck in contract)
 - **Purchase Functionality**: Buy items directly with ETH through smart contract
 - **Transaction Confirmation**: Real-time transaction status and confirmation
 - **Network Management**: Automatic network switching to Base Sepolia
 - **Error Handling**: User-friendly error messages and validation
+- **On-Chain Seller Tracking**: All sellers and item assignments stored on blockchain
 
 ---
 
 ## 🔧 Smart Contract Functions
 
-### `buyItem(uint256 _itemId, string _itemName)`
+### Marketplace Contract
+
+#### `buyItem(uint256 _itemId, string _itemName)`
 - Allows users to purchase items by sending ETH
-- Records the purchase in the contract
+- Automatically routes payment to the item's seller
+- Records the purchase with buyer and seller information
 - Emits an event with purchase details
 
-### `getPurchases()`
+#### `assignItemToSeller(uint256 _itemId, address _seller)`
+- Assigns an item to a registered seller
+- Only registered sellers can have items assigned
+- Links item ID to seller address
+
+#### `getPurchases()`
 - Returns an array of all purchases made
-- Includes item ID, name, price, and buyer address
+- Includes item ID, name, price, buyer address, and seller address
+
+#### `getSellerForItem(uint256 _itemId)`
+- Returns the seller address for a specific item
+- Returns zero address if item is not assigned
+
+### Seller Registry Contract
+
+#### `registerSeller(string _name)`
+- Registers a wallet address as a seller
+- Requires a unique seller name
+- Emits an event when seller is registered
+
+#### `getSeller(address _seller)`
+- Returns seller information (address, name, registration status, item count)
+
+#### `getSellerForItem(uint256 _itemId)`
+- Returns the seller address assigned to an item
+
+#### `isSeller(address _seller)`
+- Checks if an address is a registered seller
+- Returns boolean value
 
 ---
 
@@ -140,6 +230,9 @@ Visit [http://localhost:3000](http://localhost:3000) to interact with the app.
 - **Wallet Required**: Users need any WalletConnect-compatible wallet (300+ options)
 - **Gas Fees**: Transactions require small amounts of test ETH for gas fees
 - **Network Switching**: The app automatically prompts users to switch to Base Sepolia
+- **Seller Registration**: Items must be assigned to registered sellers before they can be purchased
+- **Payment Routing**: All payments go directly to sellers' wallets, not to the contract address
+- **Two Contracts**: The marketplace uses two contracts: SellerRegistry and SimpleMarketplace
 
 ---
 
@@ -157,9 +250,21 @@ Visit [http://localhost:3000](http://localhost:3000) to interact with the app.
 3. **"Insufficient funds"**
    - Get test ETH from Base Sepolia faucet
 
-4. **Import errors**
+4. **"Item not assigned to a seller"**
+   - Items must be assigned to a registered seller before purchase
+   - Use the `assignItemToSeller` function after seller registration
+
+5. **"Seller not registered"**
+   - Register as a seller first using the "Register as Seller" button
+   - Ensure you're connected with the wallet you want to register
+
+6. **Import errors**
    - Ensure all file paths are correct
    - Check that `.js` extensions are used for imports
+
+7. **Contract address errors**
+   - Make sure both MARKETPLACE_ADDRESS and SELLER_REGISTRY_ADDRESS are set in `lib/contract.js`
+   - Verify addresses match your deployed contracts
 
 ---
 
