@@ -1,0 +1,41 @@
+{
+  "name": "simple-onchain-marketplace",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@reown/appkit": "^1.8.7",
+    "@reown/appkit-common": "^1.8.7",
+    "@reown/appkit-universal-connector": "^1.8.7",
+    "@reown/walletkit": "^1.2.11",
+    "@walletconnect/core": "^2.21.9",
+    "@walletconnect/utils": "^2.21.9",
+    "dotenv": "^17.2.1",
+    "next": "15.5.2",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ignition": "^3.0.1",
+    "@nomicfoundation/hardhat-toolbox-mocha-ethers": "^3.0.0",
+    "@tailwindcss/postcss": "^4",
+    "@types/chai": "^4.3.20",
+    "@types/chai-as-promised": "^8.0.2",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^22.18.0",
+    "@types/react": "^19.1.12",
+    "@types/react-dom": "^19.1.9",
+    "chai": "^5.3.3",
+    "ethers": "^6.15.0",
+    "forge-std": "github:foundry-rs/forge-std#v1.9.4",
+    "hardhat": "^3.0.3",
+    "mocha": "^11.7.1",
+    "tailwindcss": "^4",
+    "typescript": "~5.8.0"
+  },
+  "type": "module"
+}
