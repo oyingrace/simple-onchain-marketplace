@@ -63,9 +63,5 @@ contract SellerRegistry {
         return registeredSellers.length;
     }
 
-    // Get all registered seller addresses
-    function getAllSellers() external view returns (address[] memory) {
-        return registeredSellers;
-    }
 }
 
