@@ -32,6 +32,7 @@ contract SimpleMarketplace {
     event ItemBought(uint indexed itemId, string itemName, address indexed buyer, address indexed seller, uint price);
     event ItemCreated(uint indexed itemId, string name, address indexed seller, uint price);
     event ItemUpdated(uint indexed itemId, string name, address indexed seller);
+    event ItemRemoved(uint indexed itemId, address indexed seller);
 
     // Constructor to set the SellerRegistry address
     constructor(address _sellerRegistryAddress) {
@@ -136,5 +137,74 @@ contract SimpleMarketplace {
         items[index].imageUrl = _imageUrl;
 
         emit ItemUpdated(_itemId, _name, msg.sender);
+    }
+
+    // Remove/deactivate an item listing (only the item's seller can call this)
+    function removeItem(uint _itemId) external {
+        uint index = itemIdToIndex[_itemId];
+        require(index < items.length, "Item does not exist");
+        require(items[index].itemId == _itemId, "Item does not exist");
+        require(items[index].seller == msg.sender, "Only the item seller can remove it");
+        require(items[index].isActive, "Item is already inactive");
+
+        items[index].isActive = false;
+
+        emit ItemRemoved(_itemId, msg.sender);
+    }
+
+    // Get a specific item by ID
+    function getItem(uint _itemId) external view returns (Item memory) {
+        uint index = itemIdToIndex[_itemId];
+        require(index < items.length, "Item does not exist");
+        require(items[index].itemId == _itemId, "Item does not exist");
+        return items[index];
+    }
+
+    // Get all items listed by a specific seller
+    function getItemsBySeller(address _seller) external view returns (Item[] memory) {
+        require(sellerRegistry.isSeller(_seller), "Address is not a registered seller");
+        
+        uint count = 0;
+        // First pass: count items
+        for (uint i = 0; i < items.length; i++) {
+            if (items[i].seller == _seller) {
+                count++;
+            }
+        }
+        
+        // Second pass: populate array
+        Item[] memory sellerItems = new Item[](count);
+        uint currentIndex = 0;
+        for (uint i = 0; i < items.length; i++) {
+            if (items[i].seller == _seller) {
+                sellerItems[currentIndex] = items[i];
+                currentIndex++;
+            }
+        }
+        
+        return sellerItems;
+    }
+
+    // Get all active items
+    function getActiveItems() external view returns (Item[] memory) {
+        uint count = 0;
+        // First pass: count active items
+        for (uint i = 0; i < items.length; i++) {
+            if (items[i].isActive) {
+                count++;
+            }
+        }
+        
+        // Second pass: populate array
+        Item[] memory activeItems = new Item[](count);
+        uint currentIndex = 0;
+        for (uint i = 0; i < items.length; i++) {
+            if (items[i].isActive) {
+                activeItems[currentIndex] = items[i];
+                currentIndex++;
+            }
+        }
+        
+        return activeItems;
     }
 }
