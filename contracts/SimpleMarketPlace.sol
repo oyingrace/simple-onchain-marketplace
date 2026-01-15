@@ -31,6 +31,7 @@ contract SimpleMarketplace {
 
     event ItemBought(uint indexed itemId, string itemName, address indexed buyer, address indexed seller, uint price);
     event ItemCreated(uint indexed itemId, string name, address indexed seller, uint price);
+    event ItemUpdated(uint indexed itemId, string name, address indexed seller);
 
     // Constructor to set the SellerRegistry address
     constructor(address _sellerRegistryAddress) {
@@ -110,5 +111,30 @@ contract SimpleMarketplace {
 
         emit ItemCreated(currentItemId, _name, msg.sender, _price);
         return currentItemId;
+    }
+
+    // Update an existing item listing (only the item's seller can call this)
+    function updateItem(
+        uint _itemId,
+        string calldata _name,
+        string calldata _description,
+        uint _price,
+        string calldata _imageUrl
+    ) external {
+        uint index = itemIdToIndex[_itemId];
+        require(index < items.length, "Item does not exist");
+        require(items[index].itemId == _itemId, "Item does not exist");
+        require(items[index].seller == msg.sender, "Only the item seller can update it");
+        require(items[index].isActive, "Cannot update inactive item");
+        require(bytes(_name).length > 0, "Item name cannot be empty");
+        require(_price > 0, "Item price must be greater than 0");
+        require(bytes(_imageUrl).length > 0, "Image URL cannot be empty");
+
+        items[index].name = _name;
+        items[index].description = _description;
+        items[index].price = _price;
+        items[index].imageUrl = _imageUrl;
+
+        emit ItemUpdated(_itemId, _name, msg.sender);
     }
 }
