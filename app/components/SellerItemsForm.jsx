@@ -45,3 +45,4 @@ const SellerItemsForm = ({
   const validate = () => {
     const nextErrors = {};
 
+    if (!name.trim()) {
