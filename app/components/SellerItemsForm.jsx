@@ -160,3 +160,4 @@ const SellerItemsForm = ({
         </label>
         <input
           type="text"
+          value={imageUrl}
