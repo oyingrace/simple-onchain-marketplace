@@ -117,3 +117,4 @@ const SellerItemsForm = ({
           <p className="mt-1 text-xs text-red-600">{errors.name}</p>
         )}
       </div>
+
