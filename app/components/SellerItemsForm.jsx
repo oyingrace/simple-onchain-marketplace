@@ -100,3 +100,4 @@ const SellerItemsForm = ({
     <form onSubmit={handleSubmit} className="space-y-4">
       <h2 className="text-xl font-bold text-gray-900">{title}</h2>
 
+      <div>
