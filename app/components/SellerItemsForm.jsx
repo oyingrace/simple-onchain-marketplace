@@ -14,3 +14,4 @@ import React, { useState, useEffect } from "react";
  *     imageUrl?: string;
  *   }
  * - onSubmit: (values) => Promise<void> | void
+ * - isSubmitting: boolean (optional external loading flag)
