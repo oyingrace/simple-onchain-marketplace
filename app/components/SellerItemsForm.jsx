@@ -49,3 +49,4 @@ const SellerItemsForm = ({
       nextErrors.name = "Name is required";
     }
 
+    if (!description.trim()) {
