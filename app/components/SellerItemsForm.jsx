@@ -60,3 +60,4 @@ const SellerItemsForm = ({
     }
 
     if (!imageUrl.trim()) {
+      nextErrors.imageUrl = "Image URL is required";
