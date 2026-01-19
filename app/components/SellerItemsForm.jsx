@@ -132,3 +132,4 @@ const SellerItemsForm = ({
           placeholder="Describe your item, key features, and condition"
         />
         {errors.description && (
+          <p className="mt-1 text-xs text-red-600">{errors.description}</p>
