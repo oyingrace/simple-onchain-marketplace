@@ -141,3 +141,4 @@ const SellerItemsForm = ({
           Price (in ETH)
         </label>
         <input
+          type="text"
