@@ -168,3 +168,4 @@ const SellerItemsForm = ({
           placeholder="e.g. /black.png or https://example.com/image.png"
         />
         {errors.imageUrl && (
+          <p className="mt-1 text-xs text-red-600">{errors.imageUrl}</p>
