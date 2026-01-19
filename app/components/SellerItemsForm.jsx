@@ -36,3 +36,4 @@ const SellerItemsForm = ({
   // Keep form in sync if initialItem changes (e.g. when editing a different item)
   useEffect(() => {
     setName(initialItem.name || "");
+    setDescription(initialItem.description || "");
