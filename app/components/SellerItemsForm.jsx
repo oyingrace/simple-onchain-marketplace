@@ -82,3 +82,4 @@ const SellerItemsForm = ({
       description: description.trim(),
       price: price.trim(),
       imageUrl: imageUrl.trim(),
+    };
