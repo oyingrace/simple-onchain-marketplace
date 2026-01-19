@@ -185,3 +185,4 @@ const SellerItemsForm = ({
           {isSubmitting
             ? mode === "edit"
               ? "Saving..."
+              : "Creating..."
