@@ -183,3 +183,4 @@ const SellerItemsForm = ({
           }`}
         >
           {isSubmitting
+            ? mode === "edit"
