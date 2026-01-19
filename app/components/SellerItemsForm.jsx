@@ -68,3 +68,4 @@ const SellerItemsForm = ({
       nextErrors.imageUrl = "Use a valid URL or a path starting with /";
     }
 
+    setErrors(nextErrors);
