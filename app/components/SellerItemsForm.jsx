@@ -161,3 +161,4 @@ const SellerItemsForm = ({
         <input
           type="text"
           value={imageUrl}
+          onChange={(e) => setImageUrl(e.target.value)}
