@@ -28,3 +28,4 @@ const SellerItemsForm = ({
   const [description, setDescription] = useState(initialItem.description || "");
   const [price, setPrice] = useState(initialItem.price || "");
   const [imageUrl, setImageUrl] = useState(initialItem.imageUrl || "");
+  const [errors, setErrors] = useState({});
