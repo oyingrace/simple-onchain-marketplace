@@ -12,3 +12,4 @@ import React, { useState, useEffect } from "react";
  *     description?: string;
  *     price?: string;        // e.g. "0.0001 ETH"
  *     imageUrl?: string;
+ *   }
