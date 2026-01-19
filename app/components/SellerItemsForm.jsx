@@ -21,3 +21,4 @@ const SellerItemsForm = ({
   mode = "create",
   initialItem = {},
   onSubmit,
+  isSubmitting: isSubmittingProp = false,
