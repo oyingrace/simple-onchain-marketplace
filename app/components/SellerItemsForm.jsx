@@ -72,3 +72,4 @@ const SellerItemsForm = ({
     return Object.keys(nextErrors).length === 0;
   };
 
+  const handleSubmit = async (e) => {
