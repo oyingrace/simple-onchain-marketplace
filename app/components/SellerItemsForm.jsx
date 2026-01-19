@@ -13,9 +13,6 @@ import React, { useState, useEffect } from "react";
  *     price?: string;        // e.g. "0.0001 ETH"
  *     imageUrl?: string;
  *   }
- * - onSubmit: (values) => Promise<void> | void
- * - isSubmitting: boolean (optional external loading flag)
- * - submitLabel: string (optional button label override)
  */
 const SellerItemsForm = ({
   mode = "create",
