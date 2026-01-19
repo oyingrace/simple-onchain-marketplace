@@ -77,3 +77,4 @@ const SellerItemsForm = ({
     if (!validate()) return;
     if (!onSubmit) return;
 
+    const values = {
