@@ -97,3 +97,4 @@ const SellerItemsForm = ({
     submitLabel || (mode === "edit" ? "Save Changes" : "Create Item");
 
   return (
+    <form onSubmit={handleSubmit} className="space-y-4">
