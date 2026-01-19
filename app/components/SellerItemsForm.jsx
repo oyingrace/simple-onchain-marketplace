@@ -26,3 +26,4 @@ const SellerItemsForm = ({
 }) => {
   const [name, setName] = useState(initialItem.name || "");
   const [description, setDescription] = useState(initialItem.description || "");
+  const [price, setPrice] = useState(initialItem.price || "");
