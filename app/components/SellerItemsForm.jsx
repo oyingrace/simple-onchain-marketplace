@@ -78,3 +78,4 @@ const SellerItemsForm = ({
     if (!onSubmit) return;
 
     const values = {
+      name: name.trim(),
