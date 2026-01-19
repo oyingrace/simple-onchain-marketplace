@@ -15,3 +15,4 @@ import React, { useState, useEffect } from "react";
  *   }
  * - onSubmit: (values) => Promise<void> | void
  * - isSubmitting: boolean (optional external loading flag)
+ * - submitLabel: string (optional button label override)
