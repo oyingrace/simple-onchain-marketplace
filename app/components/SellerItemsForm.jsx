@@ -187,3 +187,4 @@ const SellerItemsForm = ({
               ? "Saving..."
               : "Creating..."
             : buttonLabel}
+        </button>
