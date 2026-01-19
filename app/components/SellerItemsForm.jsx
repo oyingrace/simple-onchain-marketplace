@@ -25,3 +25,4 @@ const SellerItemsForm = ({
   submitLabel,
 }) => {
   const [name, setName] = useState(initialItem.name || "");
+  const [description, setDescription] = useState(initialItem.description || "");
