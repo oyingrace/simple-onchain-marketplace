@@ -149,3 +149,5 @@ const SellerItemsForm = ({
           }`}
           placeholder="e.g. 0.0005 ETH"
         />
+        {errors.price && (
+          <p className="mt-1 text-xs text-red-600">{errors.price}</p>
