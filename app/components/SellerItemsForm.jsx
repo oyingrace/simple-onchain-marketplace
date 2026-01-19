@@ -79,3 +79,4 @@ const SellerItemsForm = ({
 
     const values = {
       name: name.trim(),
+      description: description.trim(),
