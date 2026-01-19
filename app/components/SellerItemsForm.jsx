@@ -112,3 +112,4 @@ const SellerItemsForm = ({
             errors.name ? "border-red-500" : "border-gray-300"
           }`}
           placeholder="e.g. Wireless Headset"
+        />
