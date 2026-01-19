@@ -9,3 +9,4 @@ import React, { useState, useEffect } from "react";
  * - mode: "create" | "edit" (default: "create")
  * - initialItem: {
  *     name?: string;
+ *     description?: string;
