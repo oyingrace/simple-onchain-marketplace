@@ -193,3 +193,4 @@ const SellerItemsForm = ({
   );
 };
 
+export default SellerItemsForm;
