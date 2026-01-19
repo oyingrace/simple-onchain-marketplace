@@ -189,3 +189,4 @@ const SellerItemsForm = ({
             : buttonLabel}
         </button>
       </div>
+    </form>
