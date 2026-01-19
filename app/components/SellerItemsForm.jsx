@@ -90,3 +90,4 @@ const SellerItemsForm = ({
     } finally {
       setIsSubmittingInternal(false);
     }
+  };
