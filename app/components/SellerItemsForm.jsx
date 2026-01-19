@@ -37,3 +37,5 @@ const SellerItemsForm = ({
   useEffect(() => {
     setName(initialItem.name || "");
     setDescription(initialItem.description || "");
+    setPrice(initialItem.price || "");
+    setImageUrl(initialItem.imageUrl || "");
