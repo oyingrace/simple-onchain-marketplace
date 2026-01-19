@@ -177,3 +177,4 @@ const SellerItemsForm = ({
           type="submit"
           disabled={isSubmitting}
           className={`inline-flex justify-center items-center px-4 py-2 rounded-md text-sm font-medium text-white transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 ${
+            isSubmitting
