@@ -64,3 +64,4 @@ const SellerItemsForm = ({
     } else if (
       !/^https?:\/\//.test(imageUrl.trim()) &&
       !imageUrl.trim().startsWith("/")
+    ) {
