@@ -57,3 +57,4 @@ const SellerItemsForm = ({
       nextErrors.price = "Price is required";
     } else if (!/^\d+(\.\d+)?(\s*ETH)?$/i.test(price.trim())) {
       nextErrors.price = "Price should be a positive number, e.g. 0.001 or 0.001 ETH";
+    }
