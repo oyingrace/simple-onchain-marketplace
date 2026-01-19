@@ -30,3 +30,4 @@ const SellerItemsForm = ({
   const [imageUrl, setImageUrl] = useState(initialItem.imageUrl || "");
   const [errors, setErrors] = useState({});
   const [isSubmittingInternal, setIsSubmittingInternal] = useState(false);
+
