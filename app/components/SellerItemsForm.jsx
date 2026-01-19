@@ -65,3 +65,4 @@ const SellerItemsForm = ({
       !/^https?:\/\//.test(imageUrl.trim()) &&
       !imageUrl.trim().startsWith("/")
     ) {
+      nextErrors.imageUrl = "Use a valid URL or a path starting with /";
