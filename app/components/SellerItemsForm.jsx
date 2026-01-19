@@ -149,3 +149,4 @@ const SellerItemsForm = ({
           }`}
           placeholder="e.g. 0.0005 ETH"
         />
+        {errors.price && (
