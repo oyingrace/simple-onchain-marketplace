@@ -180,3 +180,4 @@ const SellerItemsForm = ({
             isSubmitting
               ? "bg-indigo-400 cursor-not-allowed"
               : "bg-indigo-600 hover:bg-indigo-700"
+          }`}
