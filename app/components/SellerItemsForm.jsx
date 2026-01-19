@@ -84,3 +84,4 @@ const SellerItemsForm = ({
       imageUrl: imageUrl.trim(),
     };
 
+    try {
