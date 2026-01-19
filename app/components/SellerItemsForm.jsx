@@ -22,3 +22,4 @@ const SellerItemsForm = ({
   initialItem = {},
   onSubmit,
   isSubmitting: isSubmittingProp = false,
+  submitLabel,
