@@ -53,3 +53,4 @@ const SellerItemsForm = ({
       nextErrors.description = "Description is required";
     }
 
+    if (!price.trim()) {
