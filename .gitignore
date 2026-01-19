@@ -27,6 +27,7 @@
 .DS_Store
 *.pem
 scripts/autocommit.sh
+scripts/write_seller_items_form.sh
 
 # debug
 npm-debug.log*
