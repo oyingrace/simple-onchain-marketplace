@@ -54,3 +54,4 @@ const SellerItemsForm = ({
     }
 
     if (!price.trim()) {
+      nextErrors.price = "Price is required";
