@@ -179,3 +179,4 @@ const SellerItemsForm = ({
           className={`inline-flex justify-center items-center px-4 py-2 rounded-md text-sm font-medium text-white transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 ${
             isSubmitting
               ? "bg-indigo-400 cursor-not-allowed"
+              : "bg-indigo-600 hover:bg-indigo-700"
