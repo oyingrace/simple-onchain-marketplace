@@ -159,3 +159,4 @@ const SellerItemsForm = ({
           Image URL or Path
         </label>
         <input
+          type="text"
