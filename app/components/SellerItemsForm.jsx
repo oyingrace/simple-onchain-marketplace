@@ -24,3 +24,4 @@ const SellerItemsForm = ({
   isSubmitting: isSubmittingProp = false,
   submitLabel,
 }) => {
+  const [name, setName] = useState(initialItem.name || "");
