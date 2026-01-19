@@ -166,3 +166,4 @@ const SellerItemsForm = ({
             errors.imageUrl ? "border-red-500" : "border-gray-300"
           }`}
           placeholder="e.g. /black.png or https://example.com/image.png"
+        />
