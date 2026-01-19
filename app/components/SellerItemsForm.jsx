@@ -18,3 +18,4 @@ import React, { useState, useEffect } from "react";
  * - submitLabel: string (optional button label override)
  */
 const SellerItemsForm = ({
+  mode = "create",
