@@ -143,3 +143,4 @@ const SellerItemsForm = ({
         <input
           type="text"
           value={price}
+          onChange={(e) => setPrice(e.target.value)}
