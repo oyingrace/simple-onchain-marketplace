@@ -175,3 +175,4 @@ const SellerItemsForm = ({
       <div className="pt-2">
         <button
           type="submit"
+          disabled={isSubmitting}
