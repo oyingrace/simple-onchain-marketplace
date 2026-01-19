@@ -50,3 +50,4 @@ const SellerItemsForm = ({
     }
 
     if (!description.trim()) {
+      nextErrors.description = "Description is required";
