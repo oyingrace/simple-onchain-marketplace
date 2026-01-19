@@ -110,3 +110,4 @@ const SellerItemsForm = ({
           onChange={(e) => setName(e.target.value)}
           className={`w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 ${
             errors.name ? "border-red-500" : "border-gray-300"
+          }`}
