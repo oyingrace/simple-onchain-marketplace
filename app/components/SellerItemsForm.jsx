@@ -86,3 +86,4 @@ const SellerItemsForm = ({
 
     try {
       setIsSubmittingInternal(true);
+      await onSubmit(values);
