@@ -123,3 +123,4 @@ const SellerItemsForm = ({
           Description
         </label>
         <textarea
+          value={description}
