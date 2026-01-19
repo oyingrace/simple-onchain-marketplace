@@ -105,3 +105,4 @@ const SellerItemsForm = ({
           Name
         </label>
         <input
+          type="text"
