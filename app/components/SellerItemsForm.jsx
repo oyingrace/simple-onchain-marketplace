@@ -124,3 +124,4 @@ const SellerItemsForm = ({
         </label>
         <textarea
           value={description}
+          onChange={(e) => setDescription(e.target.value)}
