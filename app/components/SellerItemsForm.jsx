@@ -42,3 +42,4 @@ const SellerItemsForm = ({
     setErrors({});
   }, [initialItem.name, initialItem.description, initialItem.price, initialItem.imageUrl]);
 
+  const validate = () => {
