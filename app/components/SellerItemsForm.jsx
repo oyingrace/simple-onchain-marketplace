@@ -63,3 +63,4 @@ const SellerItemsForm = ({
       nextErrors.imageUrl = "Image URL is required";
     } else if (
       !/^https?:\/\//.test(imageUrl.trim()) &&
+      !imageUrl.trim().startsWith("/")
