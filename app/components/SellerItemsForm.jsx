@@ -44,3 +44,4 @@ const SellerItemsForm = ({
 
   const validate = () => {
     const nextErrors = {};
+
