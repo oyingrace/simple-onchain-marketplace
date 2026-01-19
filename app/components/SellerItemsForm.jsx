@@ -113,3 +113,4 @@ const SellerItemsForm = ({
           }`}
           placeholder="e.g. Wireless Headset"
         />
+        {errors.name && (
