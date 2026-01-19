@@ -40,3 +40,4 @@ const SellerItemsForm = ({
     setPrice(initialItem.price || "");
     setImageUrl(initialItem.imageUrl || "");
     setErrors({});
+  }, [initialItem.name, initialItem.description, initialItem.price, initialItem.imageUrl]);
