@@ -131,3 +131,4 @@ const SellerItemsForm = ({
           rows={3}
           placeholder="Describe your item, key features, and condition"
         />
+        {errors.description && (
