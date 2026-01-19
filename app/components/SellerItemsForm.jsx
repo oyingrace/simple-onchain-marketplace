@@ -10,3 +10,4 @@ import React, { useState, useEffect } from "react";
  * - initialItem: {
  *     name?: string;
  *     description?: string;
+ *     price?: string;        // e.g. "0.0001 ETH"
