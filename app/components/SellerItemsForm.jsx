@@ -46,3 +46,4 @@ const SellerItemsForm = ({
     const nextErrors = {};
 
     if (!name.trim()) {
+      nextErrors.name = "Name is required";
