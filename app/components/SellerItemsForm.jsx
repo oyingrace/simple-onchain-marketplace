@@ -167,3 +167,4 @@ const SellerItemsForm = ({
           }`}
           placeholder="e.g. /black.png or https://example.com/image.png"
         />
+        {errors.imageUrl && (
