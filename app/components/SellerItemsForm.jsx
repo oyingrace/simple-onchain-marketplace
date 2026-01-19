@@ -71,3 +71,4 @@ const SellerItemsForm = ({
     setErrors(nextErrors);
     return Object.keys(nextErrors).length === 0;
   };
+
