@@ -164,3 +164,4 @@ const SellerItemsPanel = ({
                   <p className="text-sm font-medium text-indigo-600 mt-1">
                     {item.price}
                   </p>
+                  {item.imageUrl && (
