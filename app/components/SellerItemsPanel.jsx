@@ -157,3 +157,4 @@ const SellerItemsPanel = ({
                     >
                       {item.isActive ? "Active" : "Inactive"}
                     </span>
+                  </div>
