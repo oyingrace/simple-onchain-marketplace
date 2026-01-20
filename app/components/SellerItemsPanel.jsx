@@ -57,3 +57,4 @@ const SellerItemsPanel = ({
       await onUpdate(editingItemId, values);
       setMessage("✅ Item updated");
       setEditingItemId(null);
+      if (onRefresh) await onRefresh();
