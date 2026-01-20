@@ -94,3 +94,4 @@ const SellerItemsPanel = ({
                   imageUrl: editingItem.imageUrl,
                 }
               : {}
+          }
