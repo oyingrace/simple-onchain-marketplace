@@ -182,3 +182,4 @@ const SellerItemsPanel = ({
                   <button
                     type="button"
                     onClick={() => handleRemove(item.itemId)}
+                    disabled={submitting}
