@@ -122,3 +122,4 @@ const SellerItemsPanel = ({
             {onRefresh && (
               <button
                 type="button"
+                onClick={onRefresh}
