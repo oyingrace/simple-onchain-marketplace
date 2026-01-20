@@ -45,3 +45,4 @@ const SellerItemsPanel = ({
     } catch (err) {
       setMessage(`❌ ${err?.message || "Failed to create item"}`);
     } finally {
+      setSubmitting(false);
