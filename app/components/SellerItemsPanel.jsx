@@ -27,3 +27,4 @@ const SellerItemsPanel = ({
 }) => {
   const [editingItemId, setEditingItemId] = useState(null);
   const [submitting, setSubmitting] = useState(false);
+  const [message, setMessage] = useState("");
