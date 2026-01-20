@@ -144,3 +144,4 @@ const SellerItemsPanel = ({
                 className="border border-gray-200 rounded-md p-3 flex flex-col sm:flex-row sm:items-start sm:justify-between gap-3"
               >
                 <div className="flex-1 min-w-0">
+                  <div className="flex items-center gap-2">
