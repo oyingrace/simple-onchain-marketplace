@@ -106,3 +106,4 @@ const SellerItemsPanel = ({
             className="mt-3 text-sm text-gray-500 hover:text-gray-700 underline"
           >
             Cancel edit
+          </button>
