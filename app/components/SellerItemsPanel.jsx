@@ -11,3 +11,4 @@ import SellerItemsForm from "./SellerItemsForm";
  *
  * Props:
  * - items: array of { itemId, name, description, price, imageUrl, isActive }
+ * - loading: boolean (loading items)
