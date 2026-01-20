@@ -147,3 +147,4 @@ const SellerItemsPanel = ({
                   <div className="flex items-center gap-2">
                     <h4 className="text-sm font-semibold text-gray-900 truncate">
                       {item.name}
+                    </h4>
