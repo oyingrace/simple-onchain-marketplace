@@ -52,3 +52,4 @@ const SellerItemsPanel = ({
   const handleUpdate = async (values) => {
     if (!onUpdate || !editingItemId) return;
     setSubmitting(true);
+    setMessage("");
