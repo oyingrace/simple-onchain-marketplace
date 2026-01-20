@@ -137,3 +137,4 @@ const SellerItemsPanel = ({
         ) : items.length === 0 ? (
           <p className="text-sm text-gray-500">No items yet. Create your first item.</p>
         ) : (
+          <div className="space-y-3 max-h-[420px] overflow-y-auto pr-1">
