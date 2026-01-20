@@ -40,3 +40,4 @@ const SellerItemsPanel = ({
     setMessage("");
     try {
       await onCreate(values);
+      setMessage("✅ Item created");
