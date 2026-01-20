@@ -55,3 +55,4 @@ const SellerItemsPanel = ({
     setMessage("");
     try {
       await onUpdate(editingItemId, values);
+      setMessage("✅ Item updated");
