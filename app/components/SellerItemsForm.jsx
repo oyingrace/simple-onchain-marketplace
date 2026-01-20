@@ -13,9 +13,6 @@ import React, { useState, useEffect } from "react";
  *     price?: string;        // e.g. "0.0001 ETH"
  *     imageUrl?: string;
  *   }
- * - onSubmit: (values) => Promise<void> | void
- * - isSubmitting: boolean (optional external loading flag)
- * - submitLabel: string (optional button label override)
  */
 const SellerItemsForm = ({
   mode = "create",
@@ -150,3 +147,47 @@ const SellerItemsForm = ({
           placeholder="e.g. 0.0005 ETH"
         />
         {errors.price && (
+          <p className="mt-1 text-xs text-red-600">{errors.price}</p>
+        )}
+      </div>
+
+      <div>
+        <label className="block text-sm font-medium text-gray-700 mb-1">
+          Image URL or Path
+        </label>
+        <input
+          type="text"
+          value={imageUrl}
+          onChange={(e) => setImageUrl(e.target.value)}
+          className={`w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 ${
+            errors.imageUrl ? "border-red-500" : "border-gray-300"
+          }`}
+          placeholder="e.g. /black.png or https://example.com/image.png"
+        />
+        {errors.imageUrl && (
+          <p className="mt-1 text-xs text-red-600">{errors.imageUrl}</p>
+        )}
+      </div>
+
+      <div className="pt-2">
+        <button
+          type="submit"
+          disabled={isSubmitting}
+          className={`inline-flex justify-center items-center px-4 py-2 rounded-md text-sm font-medium text-white transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 ${
+            isSubmitting
+              ? "bg-indigo-400 cursor-not-allowed"
+              : "bg-indigo-600 hover:bg-indigo-700"
+          }`}
+        >
+          {isSubmitting
+            ? mode === "edit"
+              ? "Saving..."
+              : "Creating..."
+            : buttonLabel}
+        </button>
+      </div>
+    </form>
+  );
+};
+
+export default SellerItemsForm;
