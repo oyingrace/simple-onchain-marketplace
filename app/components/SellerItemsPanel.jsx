@@ -117,3 +117,4 @@ const SellerItemsPanel = ({
 
       <div className="p-4 bg-white rounded-lg shadow border border-gray-100">
         <div className="flex items-center justify-between mb-4">
+          <h3 className="text-lg font-semibold text-gray-900">Your Items</h3>
