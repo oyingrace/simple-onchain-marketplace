@@ -18,3 +18,4 @@ import SellerItemsForm from "./SellerItemsForm";
  * - onRemove: (itemId) => Promise<void> | void
  */
 const SellerItemsPanel = ({
+  items = [],
