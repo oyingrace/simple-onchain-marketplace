@@ -169,3 +169,4 @@ const SellerItemsPanel = ({
                       {item.imageUrl}
                     </p>
                   )}
+                </div>
