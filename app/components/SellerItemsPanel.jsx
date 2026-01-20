@@ -35,3 +35,4 @@ const SellerItemsPanel = ({
   );
 
   const handleCreate = async (values) => {
+    if (!onCreate) return;
