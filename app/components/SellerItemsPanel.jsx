@@ -54,3 +54,4 @@ const SellerItemsPanel = ({
     setSubmitting(true);
     setMessage("");
     try {
+      await onUpdate(editingItemId, values);
