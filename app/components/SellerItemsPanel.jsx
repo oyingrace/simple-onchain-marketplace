@@ -115,3 +115,4 @@ const SellerItemsPanel = ({
         )}
       </div>
 
+      <div className="p-4 bg-white rounded-lg shadow border border-gray-100">
