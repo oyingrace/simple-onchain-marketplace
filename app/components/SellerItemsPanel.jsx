@@ -13,3 +13,4 @@ import SellerItemsForm from "./SellerItemsForm";
  * - items: array of { itemId, name, description, price, imageUrl, isActive }
  * - loading: boolean (loading items)
  * - onRefresh: () => Promise<void> | void
+ * - onCreate: (values) => Promise<void> | void
