@@ -121,3 +121,4 @@ const SellerItemsPanel = ({
           <div className="flex items-center gap-2">
             {onRefresh && (
               <button
+                type="button"
