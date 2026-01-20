@@ -34,3 +34,4 @@ const SellerItemsPanel = ({
     [items, editingItemId]
   );
 
+  const handleCreate = async (values) => {
