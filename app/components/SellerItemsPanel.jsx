@@ -108,3 +108,4 @@ const SellerItemsPanel = ({
             Cancel edit
           </button>
         )}
+        {message && (
