@@ -100,3 +100,4 @@ const SellerItemsPanel = ({
           submitLabel={editingItem ? "Save Changes" : "Create Item"}
         />
         {editingItem && (
+          <button
