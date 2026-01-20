@@ -141,3 +141,4 @@ const SellerItemsPanel = ({
             {items.map((item) => (
               <div
                 key={item.itemId}
+                className="border border-gray-200 rounded-md p-3 flex flex-col sm:flex-row sm:items-start sm:justify-between gap-3"
