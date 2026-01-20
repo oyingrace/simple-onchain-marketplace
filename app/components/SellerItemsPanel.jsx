@@ -68,3 +68,4 @@ const SellerItemsPanel = ({
   const handleRemove = async (itemId) => {
     if (!onRemove) return;
     setSubmitting(true);
+    setMessage("");
