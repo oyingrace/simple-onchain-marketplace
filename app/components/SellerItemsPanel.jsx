@@ -62,3 +62,4 @@ const SellerItemsPanel = ({
       setMessage(`❌ ${err?.message || "Failed to update item"}`);
     } finally {
       setSubmitting(false);
+    }
