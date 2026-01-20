@@ -129,3 +129,4 @@ const SellerItemsPanel = ({
                 Refresh
               </button>
             )}
+          </div>
