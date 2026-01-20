@@ -95,3 +95,4 @@ const SellerItemsPanel = ({
                 }
               : {}
           }
+          onSubmit={editingItem ? handleUpdate : handleCreate}
