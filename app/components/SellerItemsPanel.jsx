@@ -150,3 +150,4 @@ const SellerItemsPanel = ({
                     </h4>
                     <span
                       className={`text-xs px-2 py-0.5 rounded-full ${
+                        item.isActive
