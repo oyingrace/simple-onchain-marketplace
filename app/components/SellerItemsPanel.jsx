@@ -29,3 +29,4 @@ const SellerItemsPanel = ({
   const [submitting, setSubmitting] = useState(false);
   const [message, setMessage] = useState("");
 
+  const editingItem = useMemo(
