@@ -49,3 +49,4 @@ const SellerItemsPanel = ({
     }
   };
 
+  const handleUpdate = async (values) => {
