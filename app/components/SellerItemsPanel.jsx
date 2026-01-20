@@ -69,3 +69,4 @@ const SellerItemsPanel = ({
     if (!onRemove) return;
     setSubmitting(true);
     setMessage("");
+    try {
