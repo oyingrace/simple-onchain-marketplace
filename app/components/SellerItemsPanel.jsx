@@ -116,3 +116,4 @@ const SellerItemsPanel = ({
       </div>
 
       <div className="p-4 bg-white rounded-lg shadow border border-gray-100">
+        <div className="flex items-center justify-between mb-4">
