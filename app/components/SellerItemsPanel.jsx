@@ -162,3 +162,4 @@ const SellerItemsPanel = ({
                     {item.description}
                   </p>
                   <p className="text-sm font-medium text-indigo-600 mt-1">
+                    {item.price}
