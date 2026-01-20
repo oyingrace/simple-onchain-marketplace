@@ -132,3 +132,4 @@ const SellerItemsPanel = ({
           </div>
         </div>
 
+        {loading ? (
