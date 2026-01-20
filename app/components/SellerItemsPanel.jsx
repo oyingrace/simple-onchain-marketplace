@@ -93,3 +93,4 @@ const SellerItemsPanel = ({
                   price: `${editingItem.price}`,
                   imageUrl: editingItem.imageUrl,
                 }
+              : {}
