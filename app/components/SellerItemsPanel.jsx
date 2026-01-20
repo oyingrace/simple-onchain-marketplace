@@ -30,3 +30,4 @@ const SellerItemsPanel = ({
   const [message, setMessage] = useState("");
 
   const editingItem = useMemo(
+    () => items.find((it) => `${it.itemId}` === `${editingItemId}`),
