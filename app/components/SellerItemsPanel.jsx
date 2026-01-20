@@ -188,3 +188,4 @@ const SellerItemsPanel = ({
                     Remove
                   </button>
                 </div>
+              </div>
