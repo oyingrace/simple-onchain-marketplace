@@ -39,3 +39,4 @@ const SellerItemsPanel = ({
     setSubmitting(true);
     setMessage("");
     try {
+      await onCreate(values);
