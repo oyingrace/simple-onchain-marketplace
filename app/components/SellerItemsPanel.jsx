@@ -89,3 +89,4 @@ const SellerItemsPanel = ({
             editingItem
               ? {
                   name: editingItem.name,
+                  description: editingItem.description,
