@@ -98,3 +98,4 @@ const SellerItemsPanel = ({
           onSubmit={editingItem ? handleUpdate : handleCreate}
           isSubmitting={submitting}
           submitLabel={editingItem ? "Save Changes" : "Create Item"}
+        />
