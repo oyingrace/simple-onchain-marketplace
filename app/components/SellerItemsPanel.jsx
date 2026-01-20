@@ -173,3 +173,4 @@ const SellerItemsPanel = ({
                 <div className="flex items-center gap-2">
                   <button
                     type="button"
+                    onClick={() => setEditingItemId(item.itemId)}
