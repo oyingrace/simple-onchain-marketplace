@@ -148,3 +148,4 @@ const SellerItemsPanel = ({
                     <h4 className="text-sm font-semibold text-gray-900 truncate">
                       {item.name}
                     </h4>
+                    <span
