@@ -102,3 +102,4 @@ const SellerItemsPanel = ({
         {editingItem && (
           <button
             type="button"
+            onClick={() => setEditingItemId(null)}
