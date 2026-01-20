@@ -26,3 +26,4 @@ const SellerItemsPanel = ({
   onRemove,
 }) => {
   const [editingItemId, setEditingItemId] = useState(null);
+  const [submitting, setSubmitting] = useState(false);
