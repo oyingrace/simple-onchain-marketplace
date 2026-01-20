@@ -76,3 +76,4 @@ const SellerItemsPanel = ({
     } catch (err) {
       setMessage(`❌ ${err?.message || "Failed to remove item"}`);
     } finally {
+      setSubmitting(false);
