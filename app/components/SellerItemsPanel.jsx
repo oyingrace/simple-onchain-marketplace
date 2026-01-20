@@ -87,3 +87,4 @@ const SellerItemsPanel = ({
           mode={editingItem ? "edit" : "create"}
           initialItem={
             editingItem
+              ? {
