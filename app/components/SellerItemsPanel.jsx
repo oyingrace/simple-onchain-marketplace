@@ -195,3 +195,4 @@ const SellerItemsPanel = ({
       </div>
     </div>
   );
+};
