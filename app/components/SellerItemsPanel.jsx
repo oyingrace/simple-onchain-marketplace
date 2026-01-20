@@ -9,3 +9,4 @@ import SellerItemsForm from "./SellerItemsForm";
  * - Provides create/edit form
  * - Expects callbacks from parent for data operations (fetch/create/update/remove)
  *
+ * Props:
