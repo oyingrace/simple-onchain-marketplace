@@ -180,3 +180,4 @@ const SellerItemsPanel = ({
                     Edit
                   </button>
                   <button
+                    type="button"
