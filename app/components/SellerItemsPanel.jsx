@@ -72,3 +72,4 @@ const SellerItemsPanel = ({
     try {
       await onRemove(itemId);
       setMessage("✅ Item removed");
+      if (onRefresh) await onRefresh();
