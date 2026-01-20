@@ -42,3 +42,4 @@ const SellerItemsPanel = ({
       await onCreate(values);
       setMessage("✅ Item created");
       if (onRefresh) await onRefresh();
+    } catch (err) {
