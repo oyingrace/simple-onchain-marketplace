@@ -15,3 +15,4 @@ import SellerItemsForm from "./SellerItemsForm";
  * - onRefresh: () => Promise<void> | void
  * - onCreate: (values) => Promise<void> | void
  * - onUpdate: (itemId, values) => Promise<void> | void
+ * - onRemove: (itemId) => Promise<void> | void
