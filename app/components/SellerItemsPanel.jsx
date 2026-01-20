@@ -84,3 +84,4 @@ const SellerItemsPanel = ({
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
       <div className="p-4 bg-white rounded-lg shadow border border-gray-100">
         <SellerItemsForm
+          mode={editingItem ? "edit" : "create"}
