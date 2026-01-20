@@ -22,3 +22,4 @@ const SellerItemsPanel = ({
   loading = false,
   onRefresh,
   onCreate,
+  onUpdate,
