@@ -133,3 +133,4 @@ const SellerItemsPanel = ({
         </div>
 
         {loading ? (
+          <p className="text-sm text-gray-500">Loading items...</p>
