@@ -174,3 +174,4 @@ const SellerItemsPanel = ({
                   <button
                     type="button"
                     onClick={() => setEditingItemId(item.itemId)}
+                    disabled={submitting}
