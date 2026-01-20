@@ -59,3 +59,4 @@ const SellerItemsPanel = ({
       setEditingItemId(null);
       if (onRefresh) await onRefresh();
     } catch (err) {
+      setMessage(`❌ ${err?.message || "Failed to update item"}`);
