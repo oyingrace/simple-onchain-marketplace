@@ -165,3 +165,4 @@ const SellerItemsPanel = ({
                     {item.price}
                   </p>
                   {item.imageUrl && (
+                    <p className="text-xs text-gray-500 mt-1 break-all">
