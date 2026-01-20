@@ -88,3 +88,4 @@ const SellerItemsPanel = ({
           initialItem={
             editingItem
               ? {
+                  name: editingItem.name,
