@@ -78,3 +78,4 @@ const SellerItemsPanel = ({
     } finally {
       setSubmitting(false);
     }
+  };
