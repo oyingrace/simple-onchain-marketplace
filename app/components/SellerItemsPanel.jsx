@@ -185,3 +185,4 @@ const SellerItemsPanel = ({
                     disabled={submitting}
                     className="text-sm text-red-600 hover:text-red-800 underline disabled:text-gray-400"
                   >
+                    Remove
