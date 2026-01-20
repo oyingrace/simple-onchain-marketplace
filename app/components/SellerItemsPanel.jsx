@@ -126,3 +126,4 @@ const SellerItemsPanel = ({
                 disabled={loading || submitting}
                 className="text-sm text-indigo-600 hover:text-indigo-800 underline disabled:text-gray-400"
               >
+                Refresh
