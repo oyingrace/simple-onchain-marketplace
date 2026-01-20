@@ -23,3 +23,4 @@ const SellerItemsPanel = ({
   onRefresh,
   onCreate,
   onUpdate,
+  onRemove,
