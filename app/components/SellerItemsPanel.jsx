@@ -192,3 +192,4 @@ const SellerItemsPanel = ({
             ))}
           </div>
         )}
+      </div>
