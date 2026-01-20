@@ -44,3 +44,4 @@ const SellerItemsPanel = ({
       if (onRefresh) await onRefresh();
     } catch (err) {
       setMessage(`❌ ${err?.message || "Failed to create item"}`);
+    } finally {
