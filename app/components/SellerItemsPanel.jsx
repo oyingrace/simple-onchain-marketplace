@@ -86,3 +86,4 @@ const SellerItemsPanel = ({
         <SellerItemsForm
           mode={editingItem ? "edit" : "create"}
           initialItem={
+            editingItem
