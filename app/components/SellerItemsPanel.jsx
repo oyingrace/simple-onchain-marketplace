@@ -8,14 +8,6 @@ import SellerItemsForm from "./SellerItemsForm";
  * - Displays seller's items
  * - Provides create/edit form
  * - Expects callbacks from parent for data operations (fetch/create/update/remove)
- *
- * Props:
- * - items: array of { itemId, name, description, price, imageUrl, isActive }
- * - loading: boolean (loading items)
- * - onRefresh: () => Promise<void> | void
- * - onCreate: (values) => Promise<void> | void
- * - onUpdate: (itemId, values) => Promise<void> | void
- * - onRemove: (itemId) => Promise<void> | void
  */
 const SellerItemsPanel = ({
   items = [],
