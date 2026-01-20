@@ -38,3 +38,4 @@ const SellerItemsPanel = ({
     if (!onCreate) return;
     setSubmitting(true);
     setMessage("");
+    try {
