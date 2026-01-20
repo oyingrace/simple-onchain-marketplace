@@ -53,3 +53,4 @@ const SellerItemsPanel = ({
     if (!onUpdate || !editingItemId) return;
     setSubmitting(true);
     setMessage("");
+    try {
