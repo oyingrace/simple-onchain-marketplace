@@ -112,3 +112,4 @@ const SellerItemsPanel = ({
           <div className="mt-3 text-sm">
             {message}
           </div>
+        )}
