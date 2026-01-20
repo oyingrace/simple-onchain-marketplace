@@ -101,3 +101,4 @@ const SellerItemsPanel = ({
         />
         {editingItem && (
           <button
+            type="button"
