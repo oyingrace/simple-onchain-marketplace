@@ -70,3 +70,4 @@ const SellerItemsPanel = ({
     setSubmitting(true);
     setMessage("");
     try {
+      await onRemove(itemId);
