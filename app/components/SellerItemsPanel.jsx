@@ -135,3 +135,4 @@ const SellerItemsPanel = ({
         {loading ? (
           <p className="text-sm text-gray-500">Loading items...</p>
         ) : items.length === 0 ? (
+          <p className="text-sm text-gray-500">No items yet. Create your first item.</p>
