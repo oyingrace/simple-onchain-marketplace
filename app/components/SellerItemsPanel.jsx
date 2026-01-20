@@ -111,3 +111,4 @@ const SellerItemsPanel = ({
         {message && (
           <div className="mt-3 text-sm">
             {message}
+          </div>
