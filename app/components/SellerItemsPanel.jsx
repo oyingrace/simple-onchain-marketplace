@@ -158,3 +158,4 @@ const SellerItemsPanel = ({
                       {item.isActive ? "Active" : "Inactive"}
                     </span>
                   </div>
+                  <p className="text-xs text-gray-600 mt-1 line-clamp-2">
