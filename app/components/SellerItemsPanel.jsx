@@ -14,3 +14,4 @@ import SellerItemsForm from "./SellerItemsForm";
  * - loading: boolean (loading items)
  * - onRefresh: () => Promise<void> | void
  * - onCreate: (values) => Promise<void> | void
+ * - onUpdate: (itemId, values) => Promise<void> | void
