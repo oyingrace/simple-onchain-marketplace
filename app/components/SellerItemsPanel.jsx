@@ -190,3 +190,4 @@ const SellerItemsPanel = ({
                 </div>
               </div>
             ))}
+          </div>
