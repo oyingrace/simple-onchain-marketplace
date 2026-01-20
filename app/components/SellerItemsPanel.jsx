@@ -160,3 +160,4 @@ const SellerItemsPanel = ({
                   </div>
                   <p className="text-xs text-gray-600 mt-1 line-clamp-2">
                     {item.description}
+                  </p>
