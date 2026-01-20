@@ -113,3 +113,4 @@ const SellerItemsPanel = ({
             {message}
           </div>
         )}
+      </div>
