@@ -65,3 +65,4 @@ const SellerItemsPanel = ({
     }
   };
 
+  const handleRemove = async (itemId) => {
