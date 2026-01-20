@@ -10,3 +10,4 @@ import SellerItemsForm from "./SellerItemsForm";
  * - Expects callbacks from parent for data operations (fetch/create/update/remove)
  *
  * Props:
+ * - items: array of { itemId, name, description, price, imageUrl, isActive }
