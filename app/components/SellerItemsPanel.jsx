@@ -99,3 +99,4 @@ const SellerItemsPanel = ({
           isSubmitting={submitting}
           submitLabel={editingItem ? "Save Changes" : "Create Item"}
         />
+        {editingItem && (
