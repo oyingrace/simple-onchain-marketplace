@@ -17,3 +17,4 @@ import SellerItemsForm from "./SellerItemsForm";
  * - onUpdate: (itemId, values) => Promise<void> | void
  * - onRemove: (itemId) => Promise<void> | void
  */
+const SellerItemsPanel = ({
