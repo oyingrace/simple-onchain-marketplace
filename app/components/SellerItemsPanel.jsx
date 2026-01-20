@@ -181,3 +181,4 @@ const SellerItemsPanel = ({
                   </button>
                   <button
                     type="button"
+                    onClick={() => handleRemove(item.itemId)}
