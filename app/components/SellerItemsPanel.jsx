@@ -140,3 +140,4 @@ const SellerItemsPanel = ({
           <div className="space-y-3 max-h-[420px] overflow-y-auto pr-1">
             {items.map((item) => (
               <div
+                key={item.itemId}
