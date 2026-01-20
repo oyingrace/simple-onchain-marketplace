@@ -25,3 +25,4 @@ const SellerItemsPanel = ({
   onUpdate,
   onRemove,
 }) => {
+  const [editingItemId, setEditingItemId] = useState(null);
