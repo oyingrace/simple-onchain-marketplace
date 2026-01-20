@@ -19,3 +19,4 @@ import SellerItemsForm from "./SellerItemsForm";
  */
 const SellerItemsPanel = ({
   items = [],
+  loading = false,
