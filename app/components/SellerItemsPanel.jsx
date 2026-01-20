@@ -74,3 +74,4 @@ const SellerItemsPanel = ({
       setMessage("✅ Item removed");
       if (onRefresh) await onRefresh();
     } catch (err) {
+      setMessage(`❌ ${err?.message || "Failed to remove item"}`);
