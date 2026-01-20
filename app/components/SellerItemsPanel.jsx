@@ -123,3 +123,4 @@ const SellerItemsPanel = ({
               <button
                 type="button"
                 onClick={onRefresh}
+                disabled={loading || submitting}
