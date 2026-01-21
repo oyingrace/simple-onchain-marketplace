@@ -67,3 +67,4 @@ const ItemManagement = () => {
       values.imageUrl
     );
     if (result?.success) {
+      await loadItems();
