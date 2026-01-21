@@ -310,3 +310,4 @@ const SellerDashboard = () => {
                       </td>
                       <td className="px-3 py-2 text-xs text-gray-600">
                         {p.seller?.slice(0, 6)}...{p.seller?.slice(-4)}
+                      </td>
