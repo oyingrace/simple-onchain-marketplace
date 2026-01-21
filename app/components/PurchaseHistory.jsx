@@ -106,3 +106,4 @@ const PurchaseHistory = () => {
         </div>
       </div>
 
+      {message && (
