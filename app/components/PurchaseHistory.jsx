@@ -114,3 +114,4 @@ const PurchaseHistory = () => {
               : message.includes("❌")
               ? "bg-red-50 text-red-700"
               : "bg-blue-50 text-blue-700"
+          }`}
