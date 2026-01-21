@@ -136,3 +136,4 @@ const SellerDashboard = () => {
       const priceNumber = parseFloat(formatPrice(p.price));
       return sum + (Number.isNaN(priceNumber) ? 0 : priceNumber);
     }, 0);
+    return total.toFixed(6);
