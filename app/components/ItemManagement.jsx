@@ -60,3 +60,4 @@ const ItemManagement = () => {
 
   const handleCreate = async (values) => {
     const priceWithEth = ensureEthSuffix(values.price);
+    const result = await createItem(
