@@ -62,3 +62,5 @@ const SellerDashboard = () => {
     const result = await getPurchases();
     if (result?.success && Array.isArray(result.purchases)) {
       const normalized = result.purchases.map((p) => ({
+        itemId: p.itemId?.toString?.() ?? `${p.itemId}`,
+        itemName: p.itemName,
