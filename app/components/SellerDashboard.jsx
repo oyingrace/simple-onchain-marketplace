@@ -104,3 +104,4 @@ const SellerDashboard = () => {
     const priceWithEth = ensureEthSuffix(values.price);
     const result = await updateItem(
       itemId,
+      values.name,
