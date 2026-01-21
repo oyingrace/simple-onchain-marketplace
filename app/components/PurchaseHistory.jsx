@@ -131,3 +131,4 @@ const PurchaseHistory = () => {
           <p className="text-gray-500">Loading purchase history...</p>
         </div>
       ) : purchases.length === 0 ? (
+        <div className="text-center py-8">
