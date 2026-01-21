@@ -21,3 +21,4 @@ const ItemManagement = () => {
     connectWallet,
     registerSeller,
     createItem,
+    updateItem,
