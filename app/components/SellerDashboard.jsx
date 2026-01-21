@@ -296,3 +296,4 @@ const SellerDashboard = () => {
                     </th>
                   </tr>
                 </thead>
+                <tbody className="divide-y divide-gray-100">
