@@ -91,3 +91,5 @@ const SellerDashboard = () => {
         {
           itemId: newId,
           name: values.name,
+          description: values.description,
+          price: priceWithEth,
