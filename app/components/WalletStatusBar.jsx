@@ -59,3 +59,4 @@ const WalletStatusBar = () => {
         const provider = new ethers.BrowserProvider(window.ethereum);
         const network = await provider.getNetwork();
         setNetwork(network.name || `Chain ${network.chainId}`);
+      } else {
