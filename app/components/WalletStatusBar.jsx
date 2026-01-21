@@ -14,3 +14,4 @@ const WalletStatusBar = () => {
     isConnected,
     isConnecting,
     connectWallet,
+    disconnectWallet,
