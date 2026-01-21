@@ -108,3 +108,4 @@ const ItemManagement = () => {
             stored on-chain in the SimpleMarketplace contract.
           </p>
         </div>
+
