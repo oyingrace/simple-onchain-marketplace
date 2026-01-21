@@ -44,3 +44,5 @@ const SellerDashboard = () => {
     if (!isConnected || !walletAddress) return;
     loadPurchases();
     loadSellerDetails();
+  }, [isConnected, walletAddress]);
+
