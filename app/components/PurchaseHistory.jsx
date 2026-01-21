@@ -24,3 +24,4 @@ const PurchaseHistory = () => {
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
+    if (isConnected && walletAddress) {
