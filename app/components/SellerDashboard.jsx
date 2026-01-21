@@ -175,3 +175,4 @@ const SellerDashboard = () => {
           </p>
         </div>
 
+        <div className="p-4 bg-white rounded-lg shadow border border-gray-100 flex flex-col gap-3">
