@@ -148,3 +148,4 @@ const ItemManagement = () => {
             <div
               className={`text-sm ${
                 message.includes("✅")
+                  ? "text-green-600"
