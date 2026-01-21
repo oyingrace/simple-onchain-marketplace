@@ -151,3 +151,4 @@ const ItemManagement = () => {
                   ? "text-green-600"
                   : message.includes("❌")
                   ? "text-red-600"
+                  : "text-blue-600"
