@@ -165,3 +165,4 @@ const PurchaseHistory = () => {
                     <div className="text-xs text-gray-500">#{purchase.itemId}</div>
                   </td>
                   <td className="px-4 py-3 whitespace-nowrap text-sm text-gray-600">
+                    {purchase.seller?.slice(0, 6)}...{purchase.seller?.slice(-4)}
