@@ -77,3 +77,4 @@ const ItemManagement = () => {
     const priceWithEth = ensureEthSuffix(values.price);
     const numericId = itemId.toString();
     const result = await updateItem(
+      numericId,
