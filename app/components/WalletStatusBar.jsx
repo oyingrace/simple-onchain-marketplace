@@ -129,3 +129,4 @@ const WalletStatusBar = () => {
           </div>
         </div>
       )}
+    </div>
