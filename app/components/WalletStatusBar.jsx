@@ -109,3 +109,4 @@ const WalletStatusBar = () => {
             </p>
           </div>
         </div>
+        <button
