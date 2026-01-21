@@ -118,3 +118,4 @@ const PurchaseHistory = () => {
         >
           {message}
           <button
+            onClick={clearMessage}
