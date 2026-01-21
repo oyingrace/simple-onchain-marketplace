@@ -21,3 +21,4 @@ const ensureEthSuffix = (price) => {
 const SellerDashboard = () => {
   const {
     walletAddress,
+    isConnected,
