@@ -40,3 +40,5 @@ const SellerDashboard = () => {
   const [loadingSeller, setLoadingSeller] = useState(false);
   const [sellerDetails, setSellerDetails] = useState(null);
 
+  useEffect(() => {
+    if (!isConnected || !walletAddress) return;
