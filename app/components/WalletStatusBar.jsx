@@ -110,3 +110,4 @@ const WalletStatusBar = () => {
           </div>
         </div>
         <button
+          onClick={disconnectWallet}
