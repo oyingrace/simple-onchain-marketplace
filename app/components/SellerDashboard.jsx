@@ -81,3 +81,4 @@ const SellerDashboard = () => {
       values.name,
       values.description,
       priceWithEth,
+      values.imageUrl
