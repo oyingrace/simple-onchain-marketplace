@@ -117,3 +117,4 @@ const PurchaseHistory = () => {
           }`}
         >
           {message}
+          <button
