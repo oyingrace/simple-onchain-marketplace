@@ -82,3 +82,4 @@ const SellerDashboard = () => {
       values.description,
       priceWithEth,
       values.imageUrl
+    );
