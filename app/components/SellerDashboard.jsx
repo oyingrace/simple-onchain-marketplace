@@ -6,3 +6,5 @@ import { useContract } from "../../lib/useContract.js";
 import { formatEthPrice } from "../../lib/contract.js";
 
 const formatPrice = (value) => {
+  try {
+    return formatEthPrice(value);
