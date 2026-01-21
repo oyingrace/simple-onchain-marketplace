@@ -56,3 +56,4 @@ const ItemManagement = () => {
     if (isConnected && walletAddress && isSeller) {
       loadItems();
     }
+  }, [isConnected, walletAddress, isSeller]);
