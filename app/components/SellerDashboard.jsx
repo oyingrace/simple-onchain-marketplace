@@ -220,3 +220,4 @@ const SellerDashboard = () => {
                   : "text-blue-600"
               }`}
             >
+              {message}
