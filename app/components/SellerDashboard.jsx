@@ -58,3 +58,5 @@ const SellerDashboard = () => {
   };
 
   const loadPurchases = async () => {
+    setLoadingPurchases(true);
+    const result = await getPurchases();
