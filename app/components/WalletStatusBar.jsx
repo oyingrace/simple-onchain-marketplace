@@ -67,3 +67,4 @@ const WalletStatusBar = () => {
       setNetwork("Unknown");
     }
   };
+
