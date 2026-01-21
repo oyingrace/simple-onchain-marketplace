@@ -19,3 +19,4 @@ const ItemManagement = () => {
     isSeller,
     message,
     connectWallet,
+    registerSeller,
