@@ -202,3 +202,4 @@ const SellerDashboard = () => {
                 >
                   Register as Seller
                 </button>
+              )}
