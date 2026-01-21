@@ -135,3 +135,4 @@ const ItemManagement = () => {
                   className="self-start bg-green-600 hover:bg-green-700 text-white font-medium py-2 px-4 rounded-md transition-colors duration-200"
                 >
                   Register as Seller
+                </button>
