@@ -58,3 +58,4 @@ const PurchaseHistory = () => {
         return sum + (Number.isNaN(priceNumber) ? 0 : priceNumber);
       } catch {
         return sum;
+      }
