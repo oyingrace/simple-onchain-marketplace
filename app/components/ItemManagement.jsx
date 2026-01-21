@@ -138,3 +138,4 @@ const ItemManagement = () => {
                 </button>
               )}
               {isSeller && (
+                <div className="text-sm text-green-600 font-medium">
