@@ -28,3 +28,4 @@ const WalletStatusBar = () => {
       loadBalance();
       loadNetwork();
     }
+  }, [isConnected, walletAddress]);
