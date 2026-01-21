@@ -224,3 +224,4 @@ const SellerDashboard = () => {
               <button
                 onClick={clearMessage}
                 className="ml-2 text-gray-400 hover:text-gray-600"
+              >
