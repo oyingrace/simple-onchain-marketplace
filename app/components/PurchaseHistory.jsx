@@ -42,3 +42,4 @@ const PurchaseHistory = () => {
       } else {
         setPurchases([]);
       }
+    } catch (error) {
