@@ -70,3 +70,4 @@ const PurchaseHistory = () => {
           Purchase History
         </h2>
         <div className="text-center py-8">
+          <p className="text-gray-600 mb-4">
