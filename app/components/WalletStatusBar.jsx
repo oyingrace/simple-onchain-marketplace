@@ -26,3 +26,4 @@ const WalletStatusBar = () => {
   useEffect(() => {
     if (isConnected && walletAddress) {
       loadBalance();
+      loadNetwork();
