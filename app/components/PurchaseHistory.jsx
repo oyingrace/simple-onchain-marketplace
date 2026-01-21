@@ -31,3 +31,4 @@ const PurchaseHistory = () => {
 
   const loadPurchases = async () => {
     setLoading(true);
+    try {
