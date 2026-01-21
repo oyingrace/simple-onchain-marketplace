@@ -48,3 +48,4 @@ const PurchaseHistory = () => {
     } finally {
       setLoading(false);
     }
+  };
