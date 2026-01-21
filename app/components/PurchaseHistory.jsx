@@ -154,3 +154,4 @@ const PurchaseHistory = () => {
                   Date
                 </th>
               </tr>
+            </thead>
