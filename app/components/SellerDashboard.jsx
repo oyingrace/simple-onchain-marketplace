@@ -88,3 +88,4 @@ const SellerDashboard = () => {
         result.itemId?.toString?.() ?? `TEMP-${Date.now().toString()}`;
       setItems((prev) => [
         ...prev,
+        {
