@@ -33,3 +33,4 @@ const PurchaseHistory = () => {
     setLoading(true);
     try {
       const result = await getPurchases();
+      if (result?.success && Array.isArray(result.purchases)) {
