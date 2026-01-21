@@ -161,3 +161,4 @@ const SellerDashboard = () => {
       value: `${totalEarnings} ETH`,
     },
   ];
+
