@@ -143,3 +143,5 @@ const SellerDashboard = () => {
     {
       label: "Seller status",
       value: loadingSeller
+        ? "Checking..."
+        : isSeller
