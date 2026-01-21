@@ -151,3 +151,4 @@ const SellerDashboard = () => {
     {
       label: "Items you’ve created",
       value: items.length.toString(),
+    },
