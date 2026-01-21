@@ -155,3 +155,4 @@ const PurchaseHistory = () => {
                 </th>
               </tr>
             </thead>
+            <tbody className="bg-white divide-y divide-gray-200">
