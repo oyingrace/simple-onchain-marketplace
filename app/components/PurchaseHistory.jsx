@@ -47,3 +47,4 @@ const PurchaseHistory = () => {
       setPurchases([]);
     } finally {
       setLoading(false);
+    }
