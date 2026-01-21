@@ -50,3 +50,4 @@ const ItemManagement = () => {
       setItems([]);
     }
     setLoadingItems(false);
+  };
