@@ -32,3 +32,4 @@ const PurchaseHistory = () => {
   const loadPurchases = async () => {
     setLoading(true);
     try {
+      const result = await getPurchases();
