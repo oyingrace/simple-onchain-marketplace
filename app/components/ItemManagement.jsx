@@ -68,3 +68,4 @@ const ItemManagement = () => {
     );
     if (result?.success) {
       await loadItems();
+    } else if (!result?.success && result?.message) {
