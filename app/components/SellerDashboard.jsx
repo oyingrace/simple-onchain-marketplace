@@ -70,3 +70,5 @@ const SellerDashboard = () => {
       }));
       setPurchases(normalized);
     } else {
+      setPurchases([]);
+    }
