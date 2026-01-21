@@ -119,3 +119,4 @@ const WalletStatusBar = () => {
       {message && (
         <div className="mt-3 pt-3 border-t border-white/20">
           <div className="flex items-center justify-between text-sm">
+            <span>{message}</span>
