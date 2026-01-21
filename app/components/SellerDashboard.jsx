@@ -271,3 +271,4 @@ const SellerDashboard = () => {
             </button>
           </div>
 
+          {loadingPurchases ? (
