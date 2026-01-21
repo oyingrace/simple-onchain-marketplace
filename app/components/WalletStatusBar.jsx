@@ -84,3 +84,4 @@ const WalletStatusBar = () => {
             {isConnecting ? "Connecting..." : "Connect Wallet"}
           </button>
         </div>
+      </div>
