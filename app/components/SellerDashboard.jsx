@@ -51,3 +51,4 @@ const SellerDashboard = () => {
     const result = await getSeller(walletAddress);
     if (result?.success && result.seller) {
       setSellerDetails(result.seller);
+    } else {
