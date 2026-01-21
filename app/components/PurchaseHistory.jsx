@@ -34,3 +34,4 @@ const PurchaseHistory = () => {
     try {
       const result = await getPurchases();
       if (result?.success && Array.isArray(result.purchases)) {
+        // Filter purchases for the current buyer
