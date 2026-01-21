@@ -263,3 +263,4 @@ const SellerDashboard = () => {
             </h3>
             <button
               type="button"
+              onClick={loadPurchases}
