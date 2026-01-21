@@ -194,3 +194,4 @@ const SellerDashboard = () => {
               <div className="text-sm text-gray-700">
                 <span className="font-semibold">Connected:</span>{" "}
                 {walletAddress.slice(0, 6)}...{walletAddress.slice(-4)}
+              </div>
