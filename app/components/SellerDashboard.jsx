@@ -277,3 +277,4 @@ const SellerDashboard = () => {
             <p className="text-sm text-gray-500">
               No purchases yet. Share your items to start selling.
             </p>
+          ) : (
