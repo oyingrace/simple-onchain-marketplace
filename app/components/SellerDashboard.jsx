@@ -178,3 +178,4 @@ const SellerDashboard = () => {
         <div className="p-4 bg-white rounded-lg shadow border border-gray-100 flex flex-col gap-3">
           {!isConnected ? (
             <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+              <p className="text-gray-700 text-sm">
