@@ -167,3 +167,5 @@ const ItemManagement = () => {
 
         {isConnected && isSeller && (
           <SellerItemsPanel
+            items={items}
+            loading={loadingItems}
