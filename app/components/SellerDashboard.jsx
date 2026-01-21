@@ -297,3 +297,4 @@ const SellerDashboard = () => {
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-gray-100">
+                  {purchases.map((p, idx) => (
