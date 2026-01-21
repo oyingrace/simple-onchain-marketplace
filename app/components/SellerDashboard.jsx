@@ -67,3 +67,4 @@ const SellerDashboard = () => {
         price: p.price,
         buyer: p.buyer,
         seller: p.seller,
+      }));
