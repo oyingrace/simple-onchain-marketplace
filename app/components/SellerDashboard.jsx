@@ -145,3 +145,4 @@ const SellerDashboard = () => {
       value: loadingSeller
         ? "Checking..."
         : isSeller
+        ? "Registered"
