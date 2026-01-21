@@ -227,3 +227,4 @@ const SellerDashboard = () => {
               >
                 ×
               </button>
+            </div>
