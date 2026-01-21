@@ -248,3 +248,4 @@ const SellerDashboard = () => {
         <div className="p-4 bg-white rounded-lg shadow border border-gray-100">
           <SellerItemsPanel
             items={items}
+            loading={false}
