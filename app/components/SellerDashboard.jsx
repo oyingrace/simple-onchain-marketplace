@@ -249,3 +249,4 @@ const SellerDashboard = () => {
           <SellerItemsPanel
             items={items}
             loading={false}
+            onCreate={handleCreate}
