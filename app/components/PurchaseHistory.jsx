@@ -46,3 +46,4 @@ const PurchaseHistory = () => {
       console.error("Error loading purchases:", error);
       setPurchases([]);
     } finally {
+      setLoading(false);
