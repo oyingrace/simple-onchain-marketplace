@@ -183,3 +183,4 @@ const SellerDashboard = () => {
               </p>
               <button
                 onClick={connectWallet}
+                disabled={isConnecting}
