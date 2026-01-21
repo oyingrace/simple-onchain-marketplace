@@ -7,3 +7,4 @@ import { formatEthPrice } from "../../lib/contract.js";
 
 const ensureEthSuffix = (price) => {
   if (!price) return "0 ETH";
+  const trimmed = price.trim();
