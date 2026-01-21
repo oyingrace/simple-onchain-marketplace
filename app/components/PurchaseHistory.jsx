@@ -86,3 +86,4 @@ const PurchaseHistory = () => {
   }
 
   return (
+    <div className="bg-white rounded-lg shadow border border-gray-100 p-6">
