@@ -96,3 +96,4 @@ const SellerDashboard = () => {
           imageUrl: values.imageUrl,
           isActive: true,
         },
+      ]);
