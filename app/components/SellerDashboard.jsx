@@ -235,3 +235,4 @@ const SellerDashboard = () => {
           {summaryCards.map((card) => (
             <div
               key={card.label}
+              className="bg-white border border-gray-100 rounded-lg p-3 shadow-sm"
