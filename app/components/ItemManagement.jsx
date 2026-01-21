@@ -18,3 +18,4 @@ const ItemManagement = () => {
     isConnecting,
     isSeller,
     message,
+    connectWallet,
