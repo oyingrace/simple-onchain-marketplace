@@ -98,3 +98,4 @@ const PurchaseHistory = () => {
           </div>
           <button
             onClick={loadPurchases}
+            disabled={loading}
