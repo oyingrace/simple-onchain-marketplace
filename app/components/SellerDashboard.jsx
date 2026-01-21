@@ -138,3 +138,4 @@ const SellerDashboard = () => {
     }, 0);
     return total.toFixed(6);
   }, [sellerPurchases]);
+
