@@ -35,3 +35,4 @@ const SellerDashboard = () => {
   } = useContract();
 
   const [items, setItems] = useState([]);
+  const [purchases, setPurchases] = useState([]);
