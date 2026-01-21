@@ -169,3 +169,4 @@ const ItemManagement = () => {
           <SellerItemsPanel
             items={items}
             loading={loadingItems}
+            onRefresh={loadItems}
