@@ -21,3 +21,4 @@ const PurchaseHistory = () => {
   } = useContract();
 
   const [purchases, setPurchases] = useState([]);
+  const [loading, setLoading] = useState(false);
