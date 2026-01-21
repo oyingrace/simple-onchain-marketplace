@@ -87,3 +87,4 @@ const PurchaseHistory = () => {
 
   return (
     <div className="bg-white rounded-lg shadow border border-gray-100 p-6">
+      <div className="flex items-center justify-between mb-6">
