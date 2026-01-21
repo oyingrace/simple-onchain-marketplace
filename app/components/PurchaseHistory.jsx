@@ -26,3 +26,5 @@ const PurchaseHistory = () => {
   useEffect(() => {
     if (isConnected && walletAddress) {
       loadPurchases();
+    }
+  }, [isConnected, walletAddress]);
