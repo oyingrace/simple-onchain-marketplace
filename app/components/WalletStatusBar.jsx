@@ -62,3 +62,4 @@ const WalletStatusBar = () => {
       } else {
         setNetwork("Base Sepolia");
       }
+    } catch (error) {
