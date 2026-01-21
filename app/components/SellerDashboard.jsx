@@ -241,3 +241,4 @@ const SellerDashboard = () => {
               <p className="text-lg font-semibold text-gray-900">
                 {card.value}
               </p>
+            </div>
