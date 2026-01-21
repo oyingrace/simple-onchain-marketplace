@@ -101,3 +101,4 @@ const ItemManagement = () => {
       <div className="max-w-5xl mx-auto px-4 space-y-6">
         <div className="flex flex-col gap-2">
           <h2 className="text-2xl font-bold text-gray-900">
+            Item Management
