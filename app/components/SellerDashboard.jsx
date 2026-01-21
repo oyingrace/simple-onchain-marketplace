@@ -208,3 +208,4 @@ const SellerDashboard = () => {
                   ✓ Registered seller
                 </div>
               )}
+            </div>
