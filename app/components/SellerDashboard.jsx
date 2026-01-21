@@ -305,3 +305,4 @@ const SellerDashboard = () => {
                           #{p.itemId}
                         </div>
                       </td>
+                      <td className="px-3 py-2 text-xs text-gray-600">
