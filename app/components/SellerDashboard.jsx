@@ -89,3 +89,4 @@ const SellerDashboard = () => {
       setItems((prev) => [
         ...prev,
         {
+          itemId: newId,
