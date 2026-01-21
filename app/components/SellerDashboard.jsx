@@ -250,3 +250,4 @@ const SellerDashboard = () => {
             items={items}
             loading={false}
             onCreate={handleCreate}
+            onUpdate={handleUpdate}
