@@ -26,3 +26,4 @@ const SellerDashboard = () => {
     message,
     isSeller,
     connectWallet,
+    registerSeller,
