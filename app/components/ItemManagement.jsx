@@ -142,3 +142,4 @@ const ItemManagement = () => {
                   ✓ Registered seller
                 </div>
               )}
+            </div>
