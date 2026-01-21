@@ -56,3 +56,4 @@ const WalletStatusBar = () => {
     try {
       // Check if we're on Base Sepolia
       if (typeof window !== "undefined" && window.ethereum) {
+        const provider = new ethers.BrowserProvider(window.ethereum);
