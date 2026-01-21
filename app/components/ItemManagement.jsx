@@ -15,3 +15,4 @@ const ItemManagement = () => {
   const {
     walletAddress,
     isConnected,
+    isConnecting,
