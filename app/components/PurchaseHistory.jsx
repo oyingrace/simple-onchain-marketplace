@@ -80,3 +80,4 @@ const PurchaseHistory = () => {
           >
             {isConnecting ? "Connecting..." : "Connect Wallet"}
           </button>
+        </div>
