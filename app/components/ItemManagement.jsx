@@ -122,3 +122,4 @@ const ItemManagement = () => {
               >
                 {isConnecting ? "Connecting..." : "Connect Wallet"}
               </button>
+            </div>
