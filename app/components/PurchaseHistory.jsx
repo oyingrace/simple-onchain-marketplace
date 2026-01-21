@@ -51,3 +51,4 @@ const PurchaseHistory = () => {
   };
 
   const totalSpent = useMemo(() => {
+    const total = purchases.reduce((sum, p) => {
