@@ -150,3 +150,4 @@ const ItemManagement = () => {
                 message.includes("✅")
                   ? "text-green-600"
                   : message.includes("❌")
+                  ? "text-red-600"
