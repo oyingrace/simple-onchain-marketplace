@@ -40,3 +40,4 @@ const ItemManagement = () => {
         name: it.name,
         description: it.description,
         // On-chain price is in Wei; format for display
+        price: formatEthPrice(it.price),
