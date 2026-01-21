@@ -60,3 +60,4 @@ const PurchaseHistory = () => {
         return sum;
       }
     }, 0);
+    return total.toFixed(6);
