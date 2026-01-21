@@ -133,3 +133,4 @@ const WalletStatusBar = () => {
   );
 };
 
+export default WalletStatusBar;
