@@ -74,3 +74,4 @@ const PurchaseHistory = () => {
             Connect your wallet to view your purchase history
           </p>
           <button
+            onClick={connectWallet}
