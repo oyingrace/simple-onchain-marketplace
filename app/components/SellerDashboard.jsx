@@ -141,3 +141,4 @@ const SellerDashboard = () => {
 
   const summaryCards = [
     {
+      label: "Seller status",
