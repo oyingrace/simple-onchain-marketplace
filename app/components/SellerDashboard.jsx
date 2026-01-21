@@ -253,3 +253,4 @@ const SellerDashboard = () => {
             onUpdate={handleUpdate}
             onRemove={handleRemove}
             onRefresh={loadPurchases}
+          />
