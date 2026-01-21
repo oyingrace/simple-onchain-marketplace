@@ -22,3 +22,4 @@ const PurchaseHistory = () => {
 
   const [purchases, setPurchases] = useState([]);
   const [loading, setLoading] = useState(false);
+
