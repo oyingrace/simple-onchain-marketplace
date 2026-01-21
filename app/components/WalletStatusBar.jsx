@@ -7,3 +7,4 @@ import { ethers } from "ethers";
 /**
  * WalletStatusBar Component
  * Displays wallet connection status, network info, and ETH balance
+ */
