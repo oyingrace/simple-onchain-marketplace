@@ -133,3 +133,4 @@ const PurchaseHistory = () => {
       ) : purchases.length === 0 ? (
         <div className="text-center py-8">
           <p className="text-gray-500">
+            No purchases yet. Start shopping to see your history here!
