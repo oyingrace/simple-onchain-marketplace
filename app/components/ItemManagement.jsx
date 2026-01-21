@@ -80,3 +80,4 @@ const ItemManagement = () => {
       numericId,
       values.name,
       values.description,
+      priceWithEth,
