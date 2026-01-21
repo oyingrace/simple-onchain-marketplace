@@ -117,3 +117,4 @@ const ItemManagement = () => {
               </p>
               <button
                 onClick={connectWallet}
+                disabled={isConnecting}
