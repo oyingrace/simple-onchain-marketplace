@@ -122,3 +122,4 @@ const WalletStatusBar = () => {
             <span>{message}</span>
             <button
               onClick={clearMessage}
+              className="text-white/70 hover:text-white"
