@@ -222,3 +222,4 @@ const SellerDashboard = () => {
             >
               {message}
               <button
+                onClick={clearMessage}
