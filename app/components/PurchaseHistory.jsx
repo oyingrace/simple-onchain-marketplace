@@ -167,3 +167,4 @@ const PurchaseHistory = () => {
                   <td className="px-4 py-3 whitespace-nowrap text-sm text-gray-600">
                     {purchase.seller?.slice(0, 6)}...{purchase.seller?.slice(-4)}
                   </td>
+                  <td className="px-4 py-3 whitespace-nowrap text-sm font-semibold text-indigo-600">
