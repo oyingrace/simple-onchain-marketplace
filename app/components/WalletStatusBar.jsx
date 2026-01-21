@@ -50,3 +50,4 @@ const WalletStatusBar = () => {
     } finally {
       setLoadingBalance(false);
     }
+  };
