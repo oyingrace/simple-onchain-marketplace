@@ -48,3 +48,4 @@ const WalletStatusBar = () => {
       console.error("Error loading balance:", error);
       setBalance("Error");
     } finally {
+      setLoadingBalance(false);
