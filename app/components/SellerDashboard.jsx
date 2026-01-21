@@ -164,3 +164,4 @@ const SellerDashboard = () => {
 
   return (
     <div className="bg-gray-50 py-10">
+      <div className="max-w-6xl mx-auto px-4 space-y-8">
