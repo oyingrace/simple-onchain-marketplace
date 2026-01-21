@@ -146,3 +146,4 @@ const ItemManagement = () => {
           )}
           {message && (
             <div
+              className={`text-sm ${
