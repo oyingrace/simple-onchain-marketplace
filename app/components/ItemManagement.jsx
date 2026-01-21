@@ -46,3 +46,4 @@ const ItemManagement = () => {
         isActive: it.isActive,
       }));
       setItems(normalized);
+    } else {
