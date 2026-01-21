@@ -56,3 +56,5 @@ const SellerDashboard = () => {
     }
     setLoadingSeller(false);
   };
+
+  const loadPurchases = async () => {
