@@ -37,3 +37,4 @@ const PurchaseHistory = () => {
         // Filter purchases for the current buyer
         const buyerPurchases = result.purchases.filter(
           (p) => p.buyer?.toLowerCase() === walletAddress.toLowerCase()
+        );
