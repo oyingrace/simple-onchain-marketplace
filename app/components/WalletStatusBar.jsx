@@ -94,3 +94,4 @@ const WalletStatusBar = () => {
         <div className="flex-1 grid grid-cols-1 sm:grid-cols-3 gap-4">
           <div>
             <p className="text-xs opacity-90 mb-1">Wallet Address</p>
+            <p className="text-sm font-mono font-semibold">
