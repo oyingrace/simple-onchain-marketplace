@@ -78,3 +78,4 @@ const ItemManagement = () => {
     const numericId = itemId.toString();
     const result = await updateItem(
       numericId,
+      values.name,
