@@ -163,3 +163,4 @@ const ItemManagement = () => {
               </button>
             </div>
           )}
+        </div>
