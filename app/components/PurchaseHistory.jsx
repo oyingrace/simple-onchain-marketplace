@@ -59,3 +59,4 @@ const PurchaseHistory = () => {
       } catch {
         return sum;
       }
+    }, 0);
