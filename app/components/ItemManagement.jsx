@@ -31,3 +31,4 @@ const ItemManagement = () => {
   const [loadingItems, setLoadingItems] = useState(false);
 
   const loadItems = async () => {
+    if (!walletAddress || !isConnected) return;
