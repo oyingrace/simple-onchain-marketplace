@@ -22,3 +22,4 @@ const WalletStatusBar = () => {
   const [balance, setBalance] = useState("0.0");
   const [network, setNetwork] = useState("Unknown");
   const [loadingBalance, setLoadingBalance] = useState(false);
+
