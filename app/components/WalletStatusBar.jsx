@@ -92,3 +92,4 @@ const WalletStatusBar = () => {
     <div className="bg-gradient-to-r from-indigo-500 to-purple-600 text-white p-4 rounded-lg shadow-lg">
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
         <div className="flex-1 grid grid-cols-1 sm:grid-cols-3 gap-4">
+          <div>
