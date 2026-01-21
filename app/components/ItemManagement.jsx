@@ -64,3 +64,4 @@ const ItemManagement = () => {
       values.name,
       values.description,
       priceWithEth,
+      values.imageUrl
