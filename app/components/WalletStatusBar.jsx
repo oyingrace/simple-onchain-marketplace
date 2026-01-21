@@ -75,3 +75,4 @@ const WalletStatusBar = () => {
           <div>
             <p className="text-sm opacity-90">Wallet Status</p>
             <p className="text-lg font-semibold">Not Connected</p>
+          </div>
