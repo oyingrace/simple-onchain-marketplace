@@ -79,3 +79,4 @@ const WalletStatusBar = () => {
           <button
             onClick={connectWallet}
             disabled={isConnecting}
+            className="bg-white text-indigo-600 hover:bg-gray-100 disabled:bg-gray-300 font-medium py-2 px-4 rounded-md transition-colors duration-200"
