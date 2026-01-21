@@ -30,3 +30,4 @@ const WalletStatusBar = () => {
     }
   }, [isConnected, walletAddress]);
 
+  const loadBalance = async () => {
