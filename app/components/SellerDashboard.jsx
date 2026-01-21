@@ -42,3 +42,4 @@ const SellerDashboard = () => {
 
   useEffect(() => {
     if (!isConnected || !walletAddress) return;
+    loadPurchases();
