@@ -27,3 +27,5 @@ const ItemManagement = () => {
     clearMessage,
   } = useContract();
 
+  const [items, setItems] = useState([]);
+  const [loadingItems, setLoadingItems] = useState(false);
