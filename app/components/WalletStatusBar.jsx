@@ -63,3 +63,4 @@ const WalletStatusBar = () => {
         setNetwork("Base Sepolia");
       }
     } catch (error) {
+      console.error("Error loading network:", error);
