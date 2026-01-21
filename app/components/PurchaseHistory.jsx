@@ -63,3 +63,4 @@ const PurchaseHistory = () => {
     return total.toFixed(6);
   }, [purchases]);
 
+  if (!isConnected) {
