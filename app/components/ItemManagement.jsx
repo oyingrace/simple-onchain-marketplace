@@ -48,3 +48,4 @@ const ItemManagement = () => {
       setItems(normalized);
     } else {
       setItems([]);
+    }
