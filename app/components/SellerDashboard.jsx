@@ -22,3 +22,5 @@ const SellerDashboard = () => {
   const {
     walletAddress,
     isConnected,
+    isConnecting,
+    message,
