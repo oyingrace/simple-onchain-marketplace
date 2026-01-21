@@ -173,3 +173,4 @@ const SellerDashboard = () => {
             Create and manage your listings, view purchases, and track your
             earnings on-chain.
           </p>
+        </div>
