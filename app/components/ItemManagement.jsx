@@ -34,3 +34,4 @@ const ItemManagement = () => {
     if (!walletAddress || !isConnected) return;
     setLoadingItems(true);
     const result = await getItemsBySeller(walletAddress);
+    if (result?.success && Array.isArray(result.items)) {
