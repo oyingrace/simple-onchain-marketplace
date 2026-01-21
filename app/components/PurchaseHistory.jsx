@@ -19,3 +19,4 @@ const PurchaseHistory = () => {
     message,
     clearMessage,
   } = useContract();
+
