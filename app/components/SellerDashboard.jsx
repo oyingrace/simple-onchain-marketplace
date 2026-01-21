@@ -125,3 +125,5 @@ const SellerDashboard = () => {
   };
 
   const sellerPurchases = useMemo(() => {
+    if (!walletAddress) return [];
+    return purchases.filter(
