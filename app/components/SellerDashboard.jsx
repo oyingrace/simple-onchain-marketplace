@@ -312,3 +312,4 @@ const SellerDashboard = () => {
                         {p.seller?.slice(0, 6)}...{p.seller?.slice(-4)}
                       </td>
                       <td className="px-3 py-2 text-sm font-semibold text-indigo-600">
+                        {formatPrice(p.price)}
