@@ -11,3 +11,4 @@ import { ethers } from "ethers";
 const WalletStatusBar = () => {
   const {
     walletAddress,
+    isConnected,
