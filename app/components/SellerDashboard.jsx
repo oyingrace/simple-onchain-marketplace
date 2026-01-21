@@ -242,3 +242,4 @@ const SellerDashboard = () => {
                 {card.value}
               </p>
             </div>
+          ))}
