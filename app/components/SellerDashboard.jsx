@@ -300,3 +300,4 @@ const SellerDashboard = () => {
                   {purchases.map((p, idx) => (
                     <tr key={`${p.itemId}-${idx}`}>
                       <td className="px-3 py-2 text-sm text-gray-900">
+                        <div className="font-medium">{p.itemName}</div>
