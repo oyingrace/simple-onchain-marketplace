@@ -54,3 +54,4 @@ const PurchaseHistory = () => {
     const total = purchases.reduce((sum, p) => {
       try {
         const price = formatEthPrice(p.price);
+        const priceNumber = parseFloat(price.replace(" ETH", ""));
