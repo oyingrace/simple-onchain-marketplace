@@ -64,3 +64,4 @@ const SellerDashboard = () => {
       const normalized = result.purchases.map((p) => ({
         itemId: p.itemId?.toString?.() ?? `${p.itemId}`,
         itemName: p.itemName,
+        price: p.price,
