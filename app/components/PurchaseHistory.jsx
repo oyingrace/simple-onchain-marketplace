@@ -53,3 +53,4 @@ const PurchaseHistory = () => {
   const totalSpent = useMemo(() => {
     const total = purchases.reduce((sum, p) => {
       try {
+        const price = formatEthPrice(p.price);
