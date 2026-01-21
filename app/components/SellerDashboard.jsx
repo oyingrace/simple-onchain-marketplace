@@ -255,3 +255,4 @@ const SellerDashboard = () => {
             onRefresh={loadPurchases}
           />
         </div>
+
