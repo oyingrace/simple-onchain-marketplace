@@ -49,3 +49,4 @@ const ItemManagement = () => {
     } else {
       setItems([]);
     }
+    setLoadingItems(false);
