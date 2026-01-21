@@ -13,3 +13,4 @@ const formatPrice = (value) => {
   }
 };
 
+const ensureEthSuffix = (price) => {
