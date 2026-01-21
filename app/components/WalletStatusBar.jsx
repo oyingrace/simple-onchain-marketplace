@@ -19,3 +19,4 @@ const WalletStatusBar = () => {
     clearMessage,
   } = useContract();
 
+  const [balance, setBalance] = useState("0.0");
