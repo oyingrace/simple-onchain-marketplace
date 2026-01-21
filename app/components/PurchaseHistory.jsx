@@ -126,3 +126,4 @@ const PurchaseHistory = () => {
         </div>
       )}
 
+      {loading ? (
