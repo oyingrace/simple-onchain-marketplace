@@ -149,3 +149,4 @@ const SellerDashboard = () => {
         : "Not registered",
     },
     {
+      label: "Items you’ve created",
