@@ -262,3 +262,4 @@ const SellerDashboard = () => {
               Purchases (on-chain)
             </h3>
             <button
+              type="button"
