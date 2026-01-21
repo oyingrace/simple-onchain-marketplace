@@ -74,3 +74,4 @@ const ItemManagement = () => {
   };
 
   const handleUpdate = async (itemId, values) => {
+    const priceWithEth = ensureEthSuffix(values.price);
