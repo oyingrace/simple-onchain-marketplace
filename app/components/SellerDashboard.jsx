@@ -157,3 +157,4 @@ const SellerDashboard = () => {
       value: sellerPurchases.length.toString(),
     },
     {
+      label: "Total earned",
