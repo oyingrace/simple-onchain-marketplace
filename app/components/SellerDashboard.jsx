@@ -315,3 +315,4 @@ const SellerDashboard = () => {
                         {formatPrice(p.price)}
                       </td>
                     </tr>
+                  ))}
