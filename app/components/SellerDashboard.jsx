@@ -32,3 +32,4 @@ const SellerDashboard = () => {
     getPurchases,
     getSeller,
     clearMessage,
+  } = useContract();
