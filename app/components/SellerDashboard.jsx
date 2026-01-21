@@ -327,3 +327,4 @@ const SellerDashboard = () => {
 };
 
 export default SellerDashboard;
+
