@@ -116,3 +116,4 @@ const SellerDashboard = () => {
             ? { ...item, ...values, price: priceWithEth }
             : item
         )
+      );
