@@ -189,3 +189,4 @@ const SellerDashboard = () => {
                 {isConnecting ? "Connecting..." : "Connect Wallet"}
               </button>
             </div>
+          ) : (
