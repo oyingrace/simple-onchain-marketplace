@@ -122,3 +122,4 @@ const SellerDashboard = () => {
 
   const handleRemove = async (itemId) => {
     setItems((prev) => prev.filter((item) => `${item.itemId}` !== `${itemId}`));
+  };
