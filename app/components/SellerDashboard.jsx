@@ -53,3 +53,4 @@ const SellerDashboard = () => {
       setSellerDetails(result.seller);
     } else {
       setSellerDetails(null);
+    }
