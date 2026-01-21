@@ -25,3 +25,4 @@ const SellerDashboard = () => {
     isConnecting,
     message,
     isSeller,
+    connectWallet,
