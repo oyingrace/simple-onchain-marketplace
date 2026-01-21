@@ -126,3 +126,4 @@ const ItemManagement = () => {
           ) : (
             <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
               <div className="text-sm text-gray-700">
+                <span className="font-semibold">Connected:</span>{" "}
