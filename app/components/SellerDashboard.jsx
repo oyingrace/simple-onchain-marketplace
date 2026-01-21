@@ -63,3 +63,4 @@ const SellerDashboard = () => {
     if (result?.success && Array.isArray(result.purchases)) {
       const normalized = result.purchases.map((p) => ({
         itemId: p.itemId?.toString?.() ?? `${p.itemId}`,
+        itemName: p.itemName,
