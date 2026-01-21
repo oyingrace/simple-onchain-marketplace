@@ -90,3 +90,4 @@ const ItemManagement = () => {
 
   const handleRemove = async (itemId) => {
     const numericId = itemId.toString();
+    const result = await removeItem(numericId);
