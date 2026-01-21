@@ -20,3 +20,4 @@ const WalletStatusBar = () => {
   } = useContract();
 
   const [balance, setBalance] = useState("0.0");
+  const [network, setNetwork] = useState("Unknown");
