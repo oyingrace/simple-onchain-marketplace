@@ -5,3 +5,4 @@ import { useContract } from "../../lib/useContract.js";
 import { ethers } from "ethers";
 
 /**
+ * WalletStatusBar Component
