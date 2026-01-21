@@ -172,3 +172,4 @@ const ItemManagement = () => {
             onRefresh={loadItems}
             onCreate={handleCreate}
             onUpdate={handleUpdate}
+            onRemove={handleRemove}
