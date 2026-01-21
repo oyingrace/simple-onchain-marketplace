@@ -114,3 +114,4 @@ const ItemManagement = () => {
             <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
               <p className="text-gray-700 text-sm">
                 Connect your wallet to manage your items.
+              </p>
