@@ -74,3 +74,6 @@ const SellerDashboard = () => {
     }
     setLoadingPurchases(false);
   };
+
+  const handleCreate = async (values) => {
+    const priceWithEth = ensureEthSuffix(values.price);
