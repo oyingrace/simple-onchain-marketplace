@@ -77,3 +77,5 @@ const SellerDashboard = () => {
 
   const handleCreate = async (values) => {
     const priceWithEth = ensureEthSuffix(values.price);
+    const result = await createItem(
+      values.name,
