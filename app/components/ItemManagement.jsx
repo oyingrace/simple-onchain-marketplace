@@ -43,3 +43,4 @@ const ItemManagement = () => {
         price: formatEthPrice(it.price),
         imageUrl: it.imageUrl,
         seller: it.seller,
+        isActive: it.isActive,
