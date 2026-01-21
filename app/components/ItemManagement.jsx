@@ -10,3 +10,4 @@ const ensureEthSuffix = (price) => {
   const trimmed = price.trim();
   return trimmed.toUpperCase().includes("ETH") ? trimmed : `${trimmed} ETH`;
 };
+
