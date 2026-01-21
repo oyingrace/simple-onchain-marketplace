@@ -49,3 +49,4 @@ const WalletStatusBar = () => {
       setBalance("Error");
     } finally {
       setLoadingBalance(false);
+    }
