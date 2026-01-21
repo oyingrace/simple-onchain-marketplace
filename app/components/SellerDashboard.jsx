@@ -83,3 +83,4 @@ const SellerDashboard = () => {
       priceWithEth,
       values.imageUrl
     );
+    if (result?.success) {
