@@ -45,3 +45,4 @@ const PurchaseHistory = () => {
     } catch (error) {
       console.error("Error loading purchases:", error);
       setPurchases([]);
+    } finally {
