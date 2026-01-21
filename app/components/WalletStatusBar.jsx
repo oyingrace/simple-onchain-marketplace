@@ -54,3 +54,4 @@ const WalletStatusBar = () => {
 
   const loadNetwork = async () => {
     try {
+      // Check if we're on Base Sepolia
