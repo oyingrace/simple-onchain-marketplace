@@ -37,3 +37,4 @@ const ItemManagement = () => {
     if (result?.success && Array.isArray(result.items)) {
       const normalized = result.items.map((it) => ({
         itemId: it.itemId?.toString?.() ?? `${it.itemId}`,
+        name: it.name,
