@@ -39,3 +39,4 @@ const SellerDashboard = () => {
   const [loadingPurchases, setLoadingPurchases] = useState(false);
   const [loadingSeller, setLoadingSeller] = useState(false);
   const [sellerDetails, setSellerDetails] = useState(null);
+
