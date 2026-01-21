@@ -72,3 +72,5 @@ const SellerDashboard = () => {
     } else {
       setPurchases([]);
     }
+    setLoadingPurchases(false);
+  };
