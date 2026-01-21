@@ -12,3 +12,4 @@ const WalletStatusBar = () => {
   const {
     walletAddress,
     isConnected,
+    isConnecting,
