@@ -171,3 +171,4 @@ const ItemManagement = () => {
             loading={loadingItems}
             onRefresh={loadItems}
             onCreate={handleCreate}
+            onUpdate={handleUpdate}
