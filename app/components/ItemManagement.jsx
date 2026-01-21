@@ -177,3 +177,4 @@ const ItemManagement = () => {
         )}
 
         {isConnected && !isSeller && (
+          <p className="text-sm text-gray-500">
