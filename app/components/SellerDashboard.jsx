@@ -97,3 +97,4 @@ const SellerDashboard = () => {
           isActive: true,
         },
       ]);
+    }
