@@ -113,3 +113,4 @@ const WalletStatusBar = () => {
           onClick={disconnectWallet}
           className="bg-white/20 hover:bg-white/30 text-white font-medium py-2 px-4 rounded-md transition-colors duration-200 text-sm"
         >
+          Disconnect
