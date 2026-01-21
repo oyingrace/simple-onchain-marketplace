@@ -46,3 +46,4 @@ const SellerDashboard = () => {
     loadSellerDetails();
   }, [isConnected, walletAddress]);
 
+  const loadSellerDetails = async () => {
