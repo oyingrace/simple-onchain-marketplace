@@ -111,3 +111,4 @@ const SellerDashboard = () => {
     );
     if (result?.success) {
       setItems((prev) =>
+        prev.map((item) =>
