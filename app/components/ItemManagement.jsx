@@ -83,3 +83,5 @@ const ItemManagement = () => {
       priceWithEth,
       values.imageUrl
     );
+    if (result?.success) {
+      await loadItems();
