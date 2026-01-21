@@ -109,3 +109,4 @@ const PurchaseHistory = () => {
       {message && (
         <div
           className={`mb-4 text-sm p-3 rounded-md ${
+            message.includes("✅")
