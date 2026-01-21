@@ -17,3 +17,4 @@ const ItemManagement = () => {
     isConnected,
     isConnecting,
     isSeller,
+    message,
