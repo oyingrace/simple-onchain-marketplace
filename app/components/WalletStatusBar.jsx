@@ -51,3 +51,4 @@ const WalletStatusBar = () => {
       setLoadingBalance(false);
     }
   };
+
