@@ -65,3 +65,4 @@ const SellerDashboard = () => {
         itemId: p.itemId?.toString?.() ?? `${p.itemId}`,
         itemName: p.itemName,
         price: p.price,
+        buyer: p.buyer,
