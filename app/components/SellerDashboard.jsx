@@ -34,3 +34,4 @@ const SellerDashboard = () => {
     clearMessage,
   } = useContract();
 
+  const [items, setItems] = useState([]);
