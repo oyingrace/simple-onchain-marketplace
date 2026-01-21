@@ -16,3 +16,4 @@ const formatPrice = (value) => {
 const ensureEthSuffix = (price) => {
   if (!price) return "0 ETH";
   return price.toUpperCase().includes("ETH") ? price : `${price} ETH`;
+};
