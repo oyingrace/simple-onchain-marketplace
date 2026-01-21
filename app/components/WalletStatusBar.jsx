@@ -34,3 +34,4 @@ const WalletStatusBar = () => {
     if (!isConnected || !walletAddress) return;
     
     setLoadingBalance(true);
+    try {
