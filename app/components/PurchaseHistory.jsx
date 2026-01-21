@@ -175,3 +175,4 @@ const PurchaseHistory = () => {
                   </td>
                 </tr>
               ))}
+            </tbody>
