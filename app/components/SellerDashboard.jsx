@@ -19,3 +19,4 @@ const ensureEthSuffix = (price) => {
 };
 
 const SellerDashboard = () => {
+  const {
