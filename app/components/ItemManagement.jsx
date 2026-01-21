@@ -25,3 +25,4 @@ const ItemManagement = () => {
     removeItem,
     getItemsBySeller,
     clearMessage,
+  } = useContract();
