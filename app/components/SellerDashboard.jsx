@@ -48,3 +48,5 @@ const SellerDashboard = () => {
 
   const loadSellerDetails = async () => {
     setLoadingSeller(true);
+    const result = await getSeller(walletAddress);
+    if (result?.success && result.seller) {
