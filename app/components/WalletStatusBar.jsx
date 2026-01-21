@@ -77,3 +77,4 @@ const WalletStatusBar = () => {
             <p className="text-lg font-semibold">Not Connected</p>
           </div>
           <button
+            onClick={connectWallet}
