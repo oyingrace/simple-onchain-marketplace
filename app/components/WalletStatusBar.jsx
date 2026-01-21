@@ -78,3 +78,4 @@ const WalletStatusBar = () => {
           </div>
           <button
             onClick={connectWallet}
+            disabled={isConnecting}
