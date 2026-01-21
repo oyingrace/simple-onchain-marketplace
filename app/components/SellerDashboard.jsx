@@ -132,3 +132,4 @@ const SellerDashboard = () => {
   }, [purchases, walletAddress]);
 
   const totalEarnings = useMemo(() => {
+    const total = sellerPurchases.reduce((sum, p) => {
