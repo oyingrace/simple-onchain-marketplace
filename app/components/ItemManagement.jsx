@@ -166,3 +166,4 @@ const ItemManagement = () => {
         </div>
 
         {isConnected && isSeller && (
+          <SellerItemsPanel
