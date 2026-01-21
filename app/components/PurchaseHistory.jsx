@@ -64,3 +64,4 @@ const PurchaseHistory = () => {
   }, [purchases]);
 
   if (!isConnected) {
+    return (
