@@ -66,3 +66,4 @@ const SellerDashboard = () => {
         itemName: p.itemName,
         price: p.price,
         buyer: p.buyer,
+        seller: p.seller,
