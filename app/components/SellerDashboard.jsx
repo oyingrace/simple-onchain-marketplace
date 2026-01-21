@@ -9,3 +9,4 @@ const formatPrice = (value) => {
   try {
     return formatEthPrice(value);
   } catch {
+    return "0 ETH";
