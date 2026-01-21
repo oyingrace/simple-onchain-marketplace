@@ -135,3 +135,4 @@ const PurchaseHistory = () => {
           <p className="text-gray-500">
             No purchases yet. Start shopping to see your history here!
           </p>
+        </div>
