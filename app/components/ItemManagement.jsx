@@ -66,3 +66,4 @@ const ItemManagement = () => {
       priceWithEth,
       values.imageUrl
     );
+    if (result?.success) {
