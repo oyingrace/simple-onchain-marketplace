@@ -211,3 +211,4 @@ const SellerDashboard = () => {
             </div>
           )}
           {message && (
+            <div
