@@ -129,3 +129,4 @@ const SellerDashboard = () => {
     return purchases.filter(
       (p) => p.seller?.toLowerCase() === walletAddress.toLowerCase()
     );
+  }, [purchases, walletAddress]);
