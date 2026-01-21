@@ -137,3 +137,5 @@ const SellerDashboard = () => {
       return sum + (Number.isNaN(priceNumber) ? 0 : priceNumber);
     }, 0);
     return total.toFixed(6);
+  }, [sellerPurchases]);
+
