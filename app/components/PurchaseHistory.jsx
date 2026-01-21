@@ -111,3 +111,4 @@ const PurchaseHistory = () => {
           className={`mb-4 text-sm p-3 rounded-md ${
             message.includes("✅")
               ? "bg-green-50 text-green-700"
+              : message.includes("❌")
