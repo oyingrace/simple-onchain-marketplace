@@ -89,3 +89,4 @@ const ItemManagement = () => {
   };
 
   const handleRemove = async (itemId) => {
+    const numericId = itemId.toString();
