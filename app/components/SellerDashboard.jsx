@@ -30,3 +30,5 @@ const SellerDashboard = () => {
     createItem,
     updateItem,
     getPurchases,
+    getSeller,
+    clearMessage,
