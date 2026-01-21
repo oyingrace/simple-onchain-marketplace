@@ -92,3 +92,4 @@ const ItemManagement = () => {
     const numericId = itemId.toString();
     const result = await removeItem(numericId);
     if (result?.success) {
+      await loadItems();
