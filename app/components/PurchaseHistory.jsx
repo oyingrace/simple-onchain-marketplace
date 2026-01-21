@@ -160,3 +160,4 @@ const PurchaseHistory = () => {
                 <tr key={`${purchase.itemId}-${idx}`} className="hover:bg-gray-50">
                   <td className="px-4 py-3 whitespace-nowrap">
                     <div className="font-medium text-gray-900">
+                      {purchase.itemName}
