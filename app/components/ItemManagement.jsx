@@ -156,3 +156,4 @@ const ItemManagement = () => {
             >
               {message}
               <button
+                onClick={clearMessage}
