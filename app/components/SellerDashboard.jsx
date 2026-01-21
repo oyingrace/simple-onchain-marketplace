@@ -128,3 +128,4 @@ const SellerDashboard = () => {
     if (!walletAddress) return [];
     return purchases.filter(
       (p) => p.seller?.toLowerCase() === walletAddress.toLowerCase()
+    );
