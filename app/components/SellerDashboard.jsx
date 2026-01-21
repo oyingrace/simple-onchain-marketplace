@@ -100,3 +100,4 @@ const SellerDashboard = () => {
     }
   };
 
+  const handleUpdate = async (itemId, values) => {
