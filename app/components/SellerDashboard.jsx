@@ -139,3 +139,5 @@ const SellerDashboard = () => {
     return total.toFixed(6);
   }, [sellerPurchases]);
 
+  const summaryCards = [
+    {
