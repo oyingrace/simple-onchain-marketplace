@@ -133,3 +133,4 @@ const SellerDashboard = () => {
 
   const totalEarnings = useMemo(() => {
     const total = sellerPurchases.reduce((sum, p) => {
+      const priceNumber = parseFloat(formatPrice(p.price));
