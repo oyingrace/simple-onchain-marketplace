@@ -269,3 +269,4 @@ const SellerDashboard = () => {
             >
               {loadingPurchases ? "Refreshing..." : "Refresh"}
             </button>
+          </div>
