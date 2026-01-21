@@ -160,3 +160,4 @@ const SellerDashboard = () => {
       label: "Total earned",
       value: `${totalEarnings} ETH`,
     },
+  ];
