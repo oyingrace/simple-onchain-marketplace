@@ -240,3 +240,4 @@ const SellerDashboard = () => {
               <p className="text-xs text-gray-500">{card.label}</p>
               <p className="text-lg font-semibold text-gray-900">
                 {card.value}
+              </p>
