@@ -61,3 +61,4 @@ const SellerDashboard = () => {
     setLoadingPurchases(true);
     const result = await getPurchases();
     if (result?.success && Array.isArray(result.purchases)) {
+      const normalized = result.purchases.map((p) => ({
