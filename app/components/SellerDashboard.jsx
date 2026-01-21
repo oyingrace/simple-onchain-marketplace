@@ -12,3 +12,4 @@ const formatPrice = (value) => {
     return "0 ETH";
   }
 };
+
