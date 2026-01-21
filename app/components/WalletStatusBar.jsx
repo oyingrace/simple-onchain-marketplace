@@ -132,3 +132,4 @@ const WalletStatusBar = () => {
     </div>
   );
 };
+
