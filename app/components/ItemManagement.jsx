@@ -35,3 +35,4 @@ const ItemManagement = () => {
     setLoadingItems(true);
     const result = await getItemsBySeller(walletAddress);
     if (result?.success && Array.isArray(result.items)) {
+      const normalized = result.items.map((it) => ({
