@@ -278,3 +278,4 @@ const SellerDashboard = () => {
               No purchases yet. Share your items to start selling.
             </p>
           ) : (
+            <div className="overflow-x-auto">
