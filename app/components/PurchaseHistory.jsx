@@ -127,3 +127,4 @@ const PurchaseHistory = () => {
       )}
 
       {loading ? (
+        <div className="text-center py-8">
