@@ -182,3 +182,4 @@ const ItemManagement = () => {
             managing items.
           </p>
         )}
+      </div>
