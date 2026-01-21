@@ -180,3 +180,4 @@ const ItemManagement = () => {
           <p className="text-sm text-gray-500">
             You are not registered as a seller yet. Register above to start
             managing items.
+          </p>
