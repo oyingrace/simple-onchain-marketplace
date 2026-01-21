@@ -163,3 +163,4 @@ const PurchaseHistory = () => {
                       {purchase.itemName}
                     </div>
                     <div className="text-xs text-gray-500">#{purchase.itemId}</div>
+                  </td>
