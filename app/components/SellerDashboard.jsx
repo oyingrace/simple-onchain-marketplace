@@ -182,3 +182,4 @@ const SellerDashboard = () => {
                 Connect your wallet to register as a seller and manage items.
               </p>
               <button
+                onClick={connectWallet}
