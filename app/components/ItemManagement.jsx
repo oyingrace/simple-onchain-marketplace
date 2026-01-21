@@ -44,3 +44,4 @@ const ItemManagement = () => {
         imageUrl: it.imageUrl,
         seller: it.seller,
         isActive: it.isActive,
+      }));
