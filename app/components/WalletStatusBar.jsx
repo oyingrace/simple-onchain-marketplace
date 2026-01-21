@@ -60,3 +60,4 @@ const WalletStatusBar = () => {
         const network = await provider.getNetwork();
         setNetwork(network.name || `Chain ${network.chainId}`);
       } else {
+        setNetwork("Base Sepolia");
