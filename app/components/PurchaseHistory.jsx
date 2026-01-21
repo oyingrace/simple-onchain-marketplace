@@ -28,3 +28,4 @@ const PurchaseHistory = () => {
       loadPurchases();
     }
   }, [isConnected, walletAddress]);
+
