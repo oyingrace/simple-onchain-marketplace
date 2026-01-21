@@ -119,3 +119,5 @@ const SellerDashboard = () => {
       );
     }
   };
+
+  const handleRemove = async (itemId) => {
