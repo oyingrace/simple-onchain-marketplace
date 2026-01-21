@@ -13,3 +13,4 @@ const ensureEthSuffix = (price) => {
 
 const ItemManagement = () => {
   const {
+    walletAddress,
