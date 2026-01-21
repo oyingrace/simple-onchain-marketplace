@@ -39,3 +39,4 @@ const WalletStatusBar = () => {
       // For now, we'll use a placeholder - in a real app you'd get this from the contract instance
       // This is a simplified version
       setBalance("Loading...");
+      // Note: To get actual balance, you'd need access to the provider
