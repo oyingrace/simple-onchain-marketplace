@@ -67,3 +67,4 @@ const PurchaseHistory = () => {
     return (
       <div className="bg-white rounded-lg shadow border border-gray-100 p-6">
         <h2 className="text-xl font-bold text-gray-900 mb-4">
+          Purchase History
