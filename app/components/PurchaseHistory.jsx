@@ -41,3 +41,4 @@ const PurchaseHistory = () => {
         setPurchases(buyerPurchases);
       } else {
         setPurchases([]);
+      }
