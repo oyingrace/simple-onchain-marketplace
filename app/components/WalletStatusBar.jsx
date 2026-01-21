@@ -23,3 +23,4 @@ const WalletStatusBar = () => {
   const [network, setNetwork] = useState("Unknown");
   const [loadingBalance, setLoadingBalance] = useState(false);
 
+  useEffect(() => {
