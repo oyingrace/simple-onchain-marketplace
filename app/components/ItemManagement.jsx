@@ -105,3 +105,4 @@ const ItemManagement = () => {
           </h2>
           <p className="text-sm text-gray-600">
             Create, update, and deactivate your marketplace items. All data is
+            stored on-chain in the SimpleMarketplace contract.
