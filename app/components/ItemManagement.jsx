@@ -131,3 +131,4 @@ const ItemManagement = () => {
               </div>
               {!isSeller && (
                 <button
+                  onClick={() => registerSeller("New Seller")}
