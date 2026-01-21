@@ -35,3 +35,4 @@ const WalletStatusBar = () => {
     
     setLoadingBalance(true);
     try {
+      // We need to get the provider from the contract
