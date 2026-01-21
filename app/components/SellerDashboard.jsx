@@ -261,3 +261,4 @@ const SellerDashboard = () => {
             <h3 className="text-lg font-semibold text-gray-900">
               Purchases (on-chain)
             </h3>
+            <button
