@@ -299,3 +299,4 @@ const SellerDashboard = () => {
                 <tbody className="divide-y divide-gray-100">
                   {purchases.map((p, idx) => (
                     <tr key={`${p.itemId}-${idx}`}>
+                      <td className="px-3 py-2 text-sm text-gray-900">
