@@ -103,3 +103,4 @@ const WalletStatusBar = () => {
             <p className="text-sm font-semibold">{network}</p>
           </div>
           <div>
+            <p className="text-xs opacity-90 mb-1">Balance</p>
