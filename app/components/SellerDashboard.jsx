@@ -264,3 +264,4 @@ const SellerDashboard = () => {
             <button
               type="button"
               onClick={loadPurchases}
+              disabled={loadingPurchases}
