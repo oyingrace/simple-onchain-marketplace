@@ -243,3 +243,4 @@ const SellerDashboard = () => {
               </p>
             </div>
           ))}
+        </div>
