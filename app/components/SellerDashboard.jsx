@@ -195,3 +195,4 @@ const SellerDashboard = () => {
                 <span className="font-semibold">Connected:</span>{" "}
                 {walletAddress.slice(0, 6)}...{walletAddress.slice(-4)}
               </div>
+              {!isSeller && (
