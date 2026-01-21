@@ -68,3 +68,4 @@ const WalletStatusBar = () => {
     }
   };
 
+  if (!isConnected) {
