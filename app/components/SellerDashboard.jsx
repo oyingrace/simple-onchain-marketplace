@@ -50,3 +50,4 @@ const SellerDashboard = () => {
     setLoadingSeller(true);
     const result = await getSeller(walletAddress);
     if (result?.success && result.seller) {
+      setSellerDetails(result.seller);
