@@ -52,3 +52,4 @@ const SellerDashboard = () => {
     if (result?.success && result.seller) {
       setSellerDetails(result.seller);
     } else {
+      setSellerDetails(null);
