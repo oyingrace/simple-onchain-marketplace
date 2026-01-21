@@ -16,3 +16,4 @@ const PurchaseHistory = () => {
     isConnecting,
     connectWallet,
     getPurchases,
+    message,
