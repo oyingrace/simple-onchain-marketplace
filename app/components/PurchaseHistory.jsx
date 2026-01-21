@@ -57,3 +57,4 @@ const PurchaseHistory = () => {
         const priceNumber = parseFloat(price.replace(" ETH", ""));
         return sum + (Number.isNaN(priceNumber) ? 0 : priceNumber);
       } catch {
+        return sum;
