@@ -14,3 +14,4 @@ const PurchaseHistory = () => {
     walletAddress,
     isConnected,
     isConnecting,
+    connectWallet,
