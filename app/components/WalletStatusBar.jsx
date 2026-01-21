@@ -124,3 +124,4 @@ const WalletStatusBar = () => {
               onClick={clearMessage}
               className="text-white/70 hover:text-white"
             >
+              ×
