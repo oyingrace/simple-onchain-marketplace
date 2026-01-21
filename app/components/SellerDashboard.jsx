@@ -29,3 +29,4 @@ const SellerDashboard = () => {
     registerSeller,
     createItem,
     updateItem,
+    getPurchases,
