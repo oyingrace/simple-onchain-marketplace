@@ -137,3 +137,4 @@ const PurchaseHistory = () => {
           </p>
         </div>
       ) : (
+        <div className="overflow-x-auto">
