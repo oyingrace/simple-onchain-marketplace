@@ -97,3 +97,4 @@ const PurchaseHistory = () => {
             </span>
           </div>
           <button
+            onClick={loadPurchases}
