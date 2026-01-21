@@ -206,3 +206,5 @@ const SellerDashboard = () => {
               {isSeller && (
                 <div className="text-sm text-green-600 font-medium">
                   ✓ Registered seller
+                </div>
+              )}
