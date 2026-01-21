@@ -179,3 +179,4 @@ const SellerDashboard = () => {
           {!isConnected ? (
             <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
               <p className="text-gray-700 text-sm">
+                Connect your wallet to register as a seller and manage items.
