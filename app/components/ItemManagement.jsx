@@ -38,3 +38,4 @@ const ItemManagement = () => {
       const normalized = result.items.map((it) => ({
         itemId: it.itemId?.toString?.() ?? `${it.itemId}`,
         name: it.name,
+        description: it.description,
