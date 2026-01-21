@@ -251,3 +251,4 @@ const SellerDashboard = () => {
             loading={false}
             onCreate={handleCreate}
             onUpdate={handleUpdate}
+            onRemove={handleRemove}
