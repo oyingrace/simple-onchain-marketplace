@@ -180,3 +180,4 @@ const PurchaseHistory = () => {
         </div>
       )}
     </div>
+  );
