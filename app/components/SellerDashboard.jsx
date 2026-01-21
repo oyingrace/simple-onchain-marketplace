@@ -110,3 +110,4 @@ const SellerDashboard = () => {
       values.imageUrl
     );
     if (result?.success) {
+      setItems((prev) =>
