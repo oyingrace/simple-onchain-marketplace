@@ -61,3 +61,4 @@ const WalletStatusBar = () => {
         setNetwork(network.name || `Chain ${network.chainId}`);
       } else {
         setNetwork("Base Sepolia");
+      }
