@@ -314,3 +314,4 @@ const SellerDashboard = () => {
                       <td className="px-3 py-2 text-sm font-semibold text-indigo-600">
                         {formatPrice(p.price)}
                       </td>
+                    </tr>
