@@ -174,3 +174,4 @@ const SellerDashboard = () => {
             earnings on-chain.
           </p>
         </div>
+
