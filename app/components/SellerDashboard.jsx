@@ -153,3 +153,5 @@ const SellerDashboard = () => {
       value: items.length.toString(),
     },
     {
+      label: "Purchases for you",
+      value: sellerPurchases.length.toString(),
