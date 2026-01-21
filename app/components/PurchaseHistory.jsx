@@ -157,3 +157,4 @@ const PurchaseHistory = () => {
             </thead>
             <tbody className="bg-white divide-y divide-gray-200">
               {purchases.map((purchase, idx) => (
+                <tr key={`${purchase.itemId}-${idx}`} className="hover:bg-gray-50">
