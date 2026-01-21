@@ -97,3 +97,5 @@ const WalletStatusBar = () => {
             <p className="text-sm font-mono font-semibold">
               {walletAddress.slice(0, 6)}...{walletAddress.slice(-4)}
             </p>
+          </div>
+          <div>
