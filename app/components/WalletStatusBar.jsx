@@ -116,3 +116,4 @@ const WalletStatusBar = () => {
           Disconnect
         </button>
       </div>
+      {message && (
