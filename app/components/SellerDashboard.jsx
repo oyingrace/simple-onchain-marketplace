@@ -124,3 +124,4 @@ const SellerDashboard = () => {
     setItems((prev) => prev.filter((item) => `${item.itemId}` !== `${itemId}`));
   };
 
+  const sellerPurchases = useMemo(() => {
