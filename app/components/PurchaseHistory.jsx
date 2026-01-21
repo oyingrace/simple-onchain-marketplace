@@ -10,3 +10,4 @@ import { formatEthPrice } from "../../lib/contract.js";
  * Displays a buyer's purchase history from on-chain purchases
  */
 const PurchaseHistory = () => {
+  const {
