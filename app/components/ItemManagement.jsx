@@ -79,3 +79,4 @@ const ItemManagement = () => {
     const result = await updateItem(
       numericId,
       values.name,
+      values.description,
