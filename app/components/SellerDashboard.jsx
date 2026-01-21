@@ -45,3 +45,4 @@ const SellerDashboard = () => {
     loadPurchases();
     loadSellerDetails();
   }, [isConnected, walletAddress]);
+
