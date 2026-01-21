@@ -162,3 +162,4 @@ const PurchaseHistory = () => {
                     <div className="font-medium text-gray-900">
                       {purchase.itemName}
                     </div>
+                    <div className="text-xs text-gray-500">#{purchase.itemId}</div>
