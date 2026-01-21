@@ -5,3 +5,4 @@ import SellerItemsPanel from "./SellerItemsPanel";
 import { useContract } from "../../lib/useContract.js";
 import { formatEthPrice } from "../../lib/contract.js";
 
+const ensureEthSuffix = (price) => {
