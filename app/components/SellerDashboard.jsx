@@ -171,3 +171,4 @@ const SellerDashboard = () => {
           </h2>
           <p className="text-sm text-gray-600">
             Create and manage your listings, view purchases, and track your
+            earnings on-chain.
