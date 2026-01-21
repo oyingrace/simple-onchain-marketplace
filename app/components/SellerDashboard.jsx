@@ -11,3 +11,4 @@ const formatPrice = (value) => {
   } catch {
     return "0 ETH";
   }
+};
