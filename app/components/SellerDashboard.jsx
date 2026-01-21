@@ -24,3 +24,4 @@ const SellerDashboard = () => {
     isConnected,
     isConnecting,
     message,
+    isSeller,
