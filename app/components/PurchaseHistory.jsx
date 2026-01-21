@@ -39,3 +39,4 @@ const PurchaseHistory = () => {
           (p) => p.buyer?.toLowerCase() === walletAddress.toLowerCase()
         );
         setPurchases(buyerPurchases);
+      } else {
