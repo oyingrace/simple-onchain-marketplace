@@ -18,3 +18,4 @@ const WalletStatusBar = () => {
     message,
     clearMessage,
   } = useContract();
+
