@@ -65,3 +65,4 @@ const WalletStatusBar = () => {
     } catch (error) {
       console.error("Error loading network:", error);
       setNetwork("Unknown");
+    }
