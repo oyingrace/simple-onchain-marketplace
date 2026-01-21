@@ -116,3 +116,4 @@ const ItemManagement = () => {
                 Connect your wallet to manage your items.
               </p>
               <button
+                onClick={connectWallet}
