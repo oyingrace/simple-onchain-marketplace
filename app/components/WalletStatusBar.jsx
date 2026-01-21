@@ -99,3 +99,4 @@ const WalletStatusBar = () => {
             </p>
           </div>
           <div>
+            <p className="text-xs opacity-90 mb-1">Network</p>
