@@ -317,3 +317,4 @@ const SellerDashboard = () => {
                     </tr>
                   ))}
                 </tbody>
+              </table>
