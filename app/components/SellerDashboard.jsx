@@ -146,3 +146,4 @@ const SellerDashboard = () => {
         ? "Checking..."
         : isSeller
         ? "Registered"
+        : "Not registered",
