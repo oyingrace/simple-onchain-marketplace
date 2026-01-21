@@ -75,3 +75,4 @@ const PurchaseHistory = () => {
           </p>
           <button
             onClick={connectWallet}
+            disabled={isConnecting}
