@@ -88,3 +88,4 @@ const WalletStatusBar = () => {
     );
   }
 
+  return (
