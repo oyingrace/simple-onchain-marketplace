@@ -117,3 +117,5 @@ const SellerDashboard = () => {
             : item
         )
       );
+    }
+  };
