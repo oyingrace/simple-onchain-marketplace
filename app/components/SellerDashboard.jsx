@@ -10,3 +10,5 @@ const formatPrice = (value) => {
     return formatEthPrice(value);
   } catch {
     return "0 ETH";
+  }
+};
