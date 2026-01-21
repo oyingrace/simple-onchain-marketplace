@@ -113,3 +113,5 @@ const SellerDashboard = () => {
       setItems((prev) =>
         prev.map((item) =>
           `${item.itemId}` === `${itemId}`
+            ? { ...item, ...values, price: priceWithEth }
+            : item
