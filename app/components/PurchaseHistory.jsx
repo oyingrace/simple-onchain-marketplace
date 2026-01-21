@@ -20,3 +20,4 @@ const PurchaseHistory = () => {
     clearMessage,
   } = useContract();
 
+  const [purchases, setPurchases] = useState([]);
