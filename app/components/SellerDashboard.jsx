@@ -105,3 +105,5 @@ const SellerDashboard = () => {
     const result = await updateItem(
       itemId,
       values.name,
+      values.description,
+      priceWithEth,
