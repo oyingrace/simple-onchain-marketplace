@@ -94,3 +94,4 @@ const ItemManagement = () => {
     if (result?.success) {
       await loadItems();
     }
+  };
