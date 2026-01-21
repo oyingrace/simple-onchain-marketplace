@@ -153,3 +153,4 @@ const PurchaseHistory = () => {
                 <th className="px-4 py-3 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
                   Date
                 </th>
+              </tr>
