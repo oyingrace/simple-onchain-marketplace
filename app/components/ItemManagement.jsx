@@ -55,3 +55,4 @@ const ItemManagement = () => {
   useEffect(() => {
     if (isConnected && walletAddress && isSeller) {
       loadItems();
+    }
