@@ -98,3 +98,4 @@ const ItemManagement = () => {
 
   return (
     <div className="bg-gray-50 py-10">
+      <div className="max-w-5xl mx-auto px-4 space-y-6">
