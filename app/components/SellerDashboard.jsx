@@ -273,3 +273,4 @@ const SellerDashboard = () => {
 
           {loadingPurchases ? (
             <p className="text-sm text-gray-500">Loading purchases...</p>
+          ) : purchases.length === 0 ? (
