@@ -69,3 +69,4 @@ const SellerDashboard = () => {
         seller: p.seller,
       }));
       setPurchases(normalized);
+    } else {
