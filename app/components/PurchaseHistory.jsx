@@ -38,3 +38,4 @@ const PurchaseHistory = () => {
         const buyerPurchases = result.purchases.filter(
           (p) => p.buyer?.toLowerCase() === walletAddress.toLowerCase()
         );
+        setPurchases(buyerPurchases);
