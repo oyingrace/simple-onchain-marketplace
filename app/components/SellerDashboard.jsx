@@ -7,3 +7,4 @@ import { formatEthPrice } from "../../lib/contract.js";
 
 const formatPrice = (value) => {
   try {
+    return formatEthPrice(value);
