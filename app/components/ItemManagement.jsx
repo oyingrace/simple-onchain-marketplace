@@ -88,3 +88,4 @@ const ItemManagement = () => {
     }
   };
 
+  const handleRemove = async (itemId) => {
