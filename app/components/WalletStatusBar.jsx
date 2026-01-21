@@ -125,3 +125,4 @@ const WalletStatusBar = () => {
               className="text-white/70 hover:text-white"
             >
               ×
+            </button>
