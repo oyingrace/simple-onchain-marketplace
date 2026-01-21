@@ -229,3 +229,4 @@ const SellerDashboard = () => {
               </button>
             </div>
           )}
+        </div>
