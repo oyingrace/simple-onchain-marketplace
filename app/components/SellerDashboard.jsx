@@ -221,3 +221,4 @@ const SellerDashboard = () => {
               }`}
             >
               {message}
+              <button
