@@ -53,3 +53,4 @@ const WalletStatusBar = () => {
   };
 
   const loadNetwork = async () => {
+    try {
