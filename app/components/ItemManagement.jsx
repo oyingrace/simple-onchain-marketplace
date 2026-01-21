@@ -23,3 +23,4 @@ const ItemManagement = () => {
     createItem,
     updateItem,
     removeItem,
+    getItemsBySeller,
