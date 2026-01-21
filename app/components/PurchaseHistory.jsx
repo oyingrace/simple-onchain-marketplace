@@ -103,3 +103,4 @@ const PurchaseHistory = () => {
           >
             {loading ? "Refreshing..." : "Refresh"}
           </button>
+        </div>
