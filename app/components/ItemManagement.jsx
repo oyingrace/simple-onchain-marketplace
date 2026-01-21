@@ -69,3 +69,4 @@ const ItemManagement = () => {
     if (result?.success) {
       await loadItems();
     } else if (!result?.success && result?.message) {
+      // message already set by hook; no-op
