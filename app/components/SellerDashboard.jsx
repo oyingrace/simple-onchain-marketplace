@@ -90,3 +90,4 @@ const SellerDashboard = () => {
         ...prev,
         {
           itemId: newId,
+          name: values.name,
