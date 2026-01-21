@@ -73,3 +73,4 @@ const PurchaseHistory = () => {
           <p className="text-gray-600 mb-4">
             Connect your wallet to view your purchase history
           </p>
+          <button
