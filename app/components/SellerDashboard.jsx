@@ -54,3 +54,5 @@ const SellerDashboard = () => {
     } else {
       setSellerDetails(null);
     }
+    setLoadingSeller(false);
+  };
