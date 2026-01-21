@@ -80,3 +80,4 @@ const SellerDashboard = () => {
     const result = await createItem(
       values.name,
       values.description,
+      priceWithEth,
