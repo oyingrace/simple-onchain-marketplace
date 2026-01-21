@@ -95,3 +95,4 @@ const PurchaseHistory = () => {
             <span className="text-indigo-600 font-semibold">
               {totalSpent} ETH
             </span>
+          </div>
