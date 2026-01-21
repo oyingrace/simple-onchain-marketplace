@@ -22,3 +22,4 @@ const ItemManagement = () => {
     registerSeller,
     createItem,
     updateItem,
+    removeItem,
