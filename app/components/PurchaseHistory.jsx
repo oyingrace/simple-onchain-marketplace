@@ -123,3 +123,4 @@ const PurchaseHistory = () => {
           >
             ×
           </button>
+        </div>
