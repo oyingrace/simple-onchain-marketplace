@@ -182,3 +182,4 @@ const PurchaseHistory = () => {
     </div>
   );
 };
+
