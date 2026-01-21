@@ -320,3 +320,4 @@ const SellerDashboard = () => {
               </table>
             </div>
           )}
+        </div>
