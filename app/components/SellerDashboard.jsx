@@ -319,3 +319,4 @@ const SellerDashboard = () => {
                 </tbody>
               </table>
             </div>
+          )}
