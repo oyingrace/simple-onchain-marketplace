@@ -89,3 +89,4 @@ const WalletStatusBar = () => {
   }
 
   return (
+    <div className="bg-gradient-to-r from-indigo-500 to-purple-600 text-white p-4 rounded-lg shadow-lg">
