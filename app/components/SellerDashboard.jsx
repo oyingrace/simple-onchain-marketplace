@@ -58,3 +58,4 @@ const SellerDashboard = () => {
   };
 
   const loadPurchases = async () => {
+    setLoadingPurchases(true);
