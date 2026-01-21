@@ -92,3 +92,4 @@ const PurchaseHistory = () => {
         <div className="flex items-center gap-3">
           <div className="text-sm text-gray-600">
             <span className="font-medium">Total Spent:</span>{" "}
+            <span className="text-indigo-600 font-semibold">
