@@ -96,3 +96,4 @@ const PurchaseHistory = () => {
               {totalSpent} ETH
             </span>
           </div>
+          <button
