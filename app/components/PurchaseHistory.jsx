@@ -91,3 +91,4 @@ const PurchaseHistory = () => {
         <h2 className="text-xl font-bold text-gray-900">Purchase History</h2>
         <div className="flex items-center gap-3">
           <div className="text-sm text-gray-600">
+            <span className="font-medium">Total Spent:</span>{" "}
