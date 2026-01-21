@@ -86,3 +86,4 @@ const SellerDashboard = () => {
     if (result?.success) {
       const newId =
         result.itemId?.toString?.() ?? `TEMP-${Date.now().toString()}`;
+      setItems((prev) => [
