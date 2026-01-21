@@ -11,3 +11,4 @@ import { formatEthPrice } from "../../lib/contract.js";
  */
 const PurchaseHistory = () => {
   const {
+    walletAddress,
