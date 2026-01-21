@@ -79,3 +79,4 @@ const PurchaseHistory = () => {
             className="bg-indigo-600 hover:bg-indigo-700 disabled:bg-gray-400 text-white font-medium py-2 px-6 rounded-lg transition-colors duration-200"
           >
             {isConnecting ? "Connecting..." : "Connect Wallet"}
+          </button>
