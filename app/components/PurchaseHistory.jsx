@@ -50,3 +50,4 @@ const PurchaseHistory = () => {
     }
   };
 
+  const totalSpent = useMemo(() => {
