@@ -185,3 +185,4 @@ const ItemManagement = () => {
       </div>
     </div>
   );
+};
