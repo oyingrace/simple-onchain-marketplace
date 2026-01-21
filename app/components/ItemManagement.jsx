@@ -33,3 +33,4 @@ const ItemManagement = () => {
   const loadItems = async () => {
     if (!walletAddress || !isConnected) return;
     setLoadingItems(true);
+    const result = await getItemsBySeller(walletAddress);
