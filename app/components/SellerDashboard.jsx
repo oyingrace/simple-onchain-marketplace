@@ -163,3 +163,4 @@ const SellerDashboard = () => {
   ];
 
   return (
+    <div className="bg-gray-50 py-10">
