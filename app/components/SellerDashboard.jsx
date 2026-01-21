@@ -213,3 +213,4 @@ const SellerDashboard = () => {
           {message && (
             <div
               className={`text-sm ${
+                message.includes("✅")
