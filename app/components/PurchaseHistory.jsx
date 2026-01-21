@@ -136,3 +136,4 @@ const PurchaseHistory = () => {
             No purchases yet. Start shopping to see your history here!
           </p>
         </div>
+      ) : (
