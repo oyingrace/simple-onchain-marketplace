@@ -181,3 +181,4 @@ const SellerDashboard = () => {
               <p className="text-gray-700 text-sm">
                 Connect your wallet to register as a seller and manage items.
               </p>
+              <button
