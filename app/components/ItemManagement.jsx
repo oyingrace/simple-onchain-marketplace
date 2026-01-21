@@ -45,3 +45,4 @@ const ItemManagement = () => {
         seller: it.seller,
         isActive: it.isActive,
       }));
+      setItems(normalized);
