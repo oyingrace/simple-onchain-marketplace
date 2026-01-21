@@ -169,3 +169,4 @@ const PurchaseHistory = () => {
                   </td>
                   <td className="px-4 py-3 whitespace-nowrap text-sm font-semibold text-indigo-600">
                     {formatEthPrice(purchase.price)}
+                  </td>
