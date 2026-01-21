@@ -115,3 +115,4 @@ const SellerDashboard = () => {
           `${item.itemId}` === `${itemId}`
             ? { ...item, ...values, price: priceWithEth }
             : item
+        )
