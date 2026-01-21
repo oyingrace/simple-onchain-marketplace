@@ -18,3 +18,4 @@ const ensureEthSuffix = (price) => {
   return price.toUpperCase().includes("ETH") ? price : `${price} ETH`;
 };
 
+const SellerDashboard = () => {
