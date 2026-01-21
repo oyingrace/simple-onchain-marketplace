@@ -107,3 +107,4 @@ const WalletStatusBar = () => {
             <p className="text-sm font-semibold">
               {loadingBalance ? "..." : balance} ETH
             </p>
+          </div>
