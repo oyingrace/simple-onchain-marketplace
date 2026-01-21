@@ -108,3 +108,4 @@ const WalletStatusBar = () => {
               {loadingBalance ? "..." : balance} ETH
             </p>
           </div>
+        </div>
