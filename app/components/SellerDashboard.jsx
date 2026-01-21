@@ -131,3 +131,4 @@ const SellerDashboard = () => {
     );
   }, [purchases, walletAddress]);
 
+  const totalEarnings = useMemo(() => {
