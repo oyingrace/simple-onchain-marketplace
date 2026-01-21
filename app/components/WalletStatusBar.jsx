@@ -42,3 +42,4 @@ const WalletStatusBar = () => {
       // Note: To get actual balance, you'd need access to the provider
       // This is a UI component that shows the structure
       setTimeout(() => {
+        setBalance("--");
