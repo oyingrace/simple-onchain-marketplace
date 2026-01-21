@@ -197,3 +197,4 @@ const SellerDashboard = () => {
               </div>
               {!isSeller && (
                 <button
+                  onClick={() => registerSeller("New Seller")}
