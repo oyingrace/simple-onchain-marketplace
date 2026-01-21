@@ -140,3 +140,4 @@ const SellerDashboard = () => {
   }, [sellerPurchases]);
 
   const summaryCards = [
+    {
