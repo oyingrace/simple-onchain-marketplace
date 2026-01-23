@@ -61,3 +61,4 @@ const ItemDetailsModal = ({
             <div className="bg-gray-50 rounded-lg p-4 flex items-center justify-center min-h-[300px]">
               <img
                 src={item.imageUrl}
+                alt={item.name}
