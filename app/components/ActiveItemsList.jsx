@@ -170,3 +170,4 @@ const ActiveItemsList = () => {
                     Seller: {sellerInfo[item.itemId].name}
                   </div>
                 )}
+
