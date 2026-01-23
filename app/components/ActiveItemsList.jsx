@@ -47,3 +47,4 @@ const ActiveItemsList = () => {
           name: item.name,
           description: item.description,
           price: formatEthPrice(item.price),
+          priceWei: item.price, // Keep original for buying
