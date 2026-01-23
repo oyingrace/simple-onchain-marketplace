@@ -188,3 +188,4 @@ const ActiveItemsList = () => {
 
                 <button
                   onClick={(e) => {
+                    e.stopPropagation();
