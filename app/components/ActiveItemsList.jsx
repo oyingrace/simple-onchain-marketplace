@@ -50,3 +50,4 @@ const ActiveItemsList = () => {
           priceWei: item.price, // Keep original for buying
           imageUrl: item.imageUrl,
           seller: item.seller,
+          isActive: item.isActive,
