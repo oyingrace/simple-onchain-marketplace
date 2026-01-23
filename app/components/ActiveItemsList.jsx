@@ -75,3 +75,4 @@ const ActiveItemsList = () => {
       }
     } catch (error) {
       console.error("Error loading seller info:", error);
+    }
