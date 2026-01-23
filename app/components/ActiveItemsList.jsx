@@ -87,3 +87,4 @@ const ActiveItemsList = () => {
         loadActiveItems();
       }, 2000);
     }
+  };
