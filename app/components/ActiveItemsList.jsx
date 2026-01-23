@@ -156,3 +156,4 @@ const ActiveItemsList = () => {
                       e.target.src = "/placeholder-image.png";
                     }}
                   />
+                </div>
