@@ -9,7 +9,6 @@ import ItemDetailsModal from "./ItemDetailsModal.jsx";
 /**
  * ActiveItemsList Component
  * Fetches and displays all active items from the smart contract
- * Replaces hardcoded item lists
  */
 const ActiveItemsList = () => {
   const {
