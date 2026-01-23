@@ -222,3 +222,4 @@ const ActiveItemsList = () => {
         />
       )}
     </div>
+  );
