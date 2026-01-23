@@ -85,3 +85,4 @@ const ActiveItemsList = () => {
       // Optionally reload items after purchase
       setTimeout(() => {
         loadActiveItems();
+      }, 2000);
