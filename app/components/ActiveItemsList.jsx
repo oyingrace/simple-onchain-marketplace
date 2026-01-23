@@ -56,3 +56,4 @@ const ActiveItemsList = () => {
       } else {
         setItems([]);
       }
+    } catch (error) {
