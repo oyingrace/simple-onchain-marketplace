@@ -128,3 +128,4 @@ const ItemDetailsModal = ({
                   : "Buy Now"}
               </button>
             </div>
+          </div>
