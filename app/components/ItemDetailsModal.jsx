@@ -65,3 +65,4 @@ const ItemDetailsModal = ({
                 className="max-w-full max-h-[300px] object-contain"
                 onError={(e) => {
                   e.target.src = "/placeholder-image.png";
+                }}
