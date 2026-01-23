@@ -105,3 +105,4 @@ const ActiveItemsList = () => {
         >
           {loading ? "Refreshing..." : "Refresh"}
         </button>
+      </div>
