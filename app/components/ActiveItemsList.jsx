@@ -216,3 +216,4 @@ const ActiveItemsList = () => {
           item={selectedItem}
           isOpen={!!selectedItem}
           onClose={() => setSelectedItem(null)}
+          onBuy={handleBuy}
