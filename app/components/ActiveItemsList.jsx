@@ -20,3 +20,4 @@ const ActiveItemsList = () => {
     message,
     clearMessage,
   } = useContract();
+
