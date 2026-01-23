@@ -133,3 +133,4 @@ const ItemDetailsModal = ({
       </div>
     </div>
   );
+};
