@@ -125,3 +125,4 @@ const ActiveItemsList = () => {
             ×
           </button>
         </div>
+      )}
