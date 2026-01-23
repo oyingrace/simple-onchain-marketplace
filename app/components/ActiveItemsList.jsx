@@ -108,3 +108,4 @@ const ActiveItemsList = () => {
       </div>
 
       {message && (
+        <div
