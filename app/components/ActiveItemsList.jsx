@@ -28,3 +28,4 @@ const ActiveItemsList = () => {
 
   useEffect(() => {
     loadActiveItems();
+  }, []);
