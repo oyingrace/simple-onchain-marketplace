@@ -66,3 +66,4 @@ const ItemDetailsModal = ({
                 onError={(e) => {
                   e.target.src = "/placeholder-image.png";
                 }}
+              />
