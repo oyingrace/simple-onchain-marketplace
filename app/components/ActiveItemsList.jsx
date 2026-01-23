@@ -2,3 +2,4 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
+import { useContract } from "../../lib/useContract.js";
