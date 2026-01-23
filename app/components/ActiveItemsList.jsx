@@ -64,3 +64,4 @@ const ActiveItemsList = () => {
     }
   };
 
+  const loadSellerInfo = async (itemId) => {
