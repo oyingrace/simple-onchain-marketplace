@@ -101,3 +101,4 @@ const ActiveItemsList = () => {
         <button
           onClick={loadActiveItems}
           disabled={loading}
+          className="text-sm text-indigo-600 hover:text-indigo-800 underline disabled:text-gray-400"
