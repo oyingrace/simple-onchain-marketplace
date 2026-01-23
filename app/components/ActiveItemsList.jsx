@@ -117,3 +117,5 @@ const ActiveItemsList = () => {
               : "bg-blue-50 text-blue-700"
           }`}
         >
+          {message}
+          <button
