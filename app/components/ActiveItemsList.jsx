@@ -48,3 +48,4 @@ const ActiveItemsList = () => {
           description: item.description,
           price: formatEthPrice(item.price),
           priceWei: item.price, // Keep original for buying
+          imageUrl: item.imageUrl,
