@@ -57,3 +57,4 @@ const ActiveItemsList = () => {
         setItems([]);
       }
     } catch (error) {
+      console.error("Error loading active items:", error);
