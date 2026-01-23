@@ -16,3 +16,4 @@ import { formatEthPrice } from "../../lib/contract.js";
  * - sellerName?: string (optional seller name)
  */
 const ItemDetailsModal = ({
+  item,
