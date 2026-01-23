@@ -19,3 +19,4 @@ const ItemDetailsModal = ({
   item,
   isOpen,
   onClose,
+  onBuy,
