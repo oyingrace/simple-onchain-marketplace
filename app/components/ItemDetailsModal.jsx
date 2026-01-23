@@ -97,3 +97,4 @@ const ItemDetailsModal = ({
               </div>
 
               <div>
+                <p className="text-sm text-gray-600 mb-2">Seller</p>
