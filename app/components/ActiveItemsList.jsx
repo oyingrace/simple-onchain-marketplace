@@ -124,3 +124,4 @@ const ActiveItemsList = () => {
           >
             ×
           </button>
+        </div>
