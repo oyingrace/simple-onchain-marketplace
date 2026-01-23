@@ -199,3 +199,4 @@ const ActiveItemsList = () => {
                   }`}
                 >
                   {!isConnected
+                    ? "Connect Wallet"
