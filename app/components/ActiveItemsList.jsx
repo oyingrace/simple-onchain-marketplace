@@ -204,3 +204,4 @@ const ActiveItemsList = () => {
                     ? "Not Available"
                     : "Buy Now"}
                 </button>
+              </div>
