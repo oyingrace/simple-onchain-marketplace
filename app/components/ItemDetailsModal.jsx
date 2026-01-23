@@ -108,3 +108,4 @@ const ItemDetailsModal = ({
                 <p className="text-3xl font-bold text-indigo-600">
                   {typeof item.price === "string"
                     ? item.price
+                    : formatEthPrice(item.price)}
