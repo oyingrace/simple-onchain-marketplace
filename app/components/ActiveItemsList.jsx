@@ -7,3 +7,4 @@ import { formatEthPrice } from "../../lib/contract.js";
 import ItemDetailsModal from "./ItemDetailsModal.jsx";
 
 /**
+ * ActiveItemsList Component
