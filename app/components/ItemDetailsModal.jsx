@@ -113,3 +113,4 @@ const ItemDetailsModal = ({
               </div>
 
               <button
+                onClick={handleBuy}
