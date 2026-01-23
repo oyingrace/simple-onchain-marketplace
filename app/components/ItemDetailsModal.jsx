@@ -20,3 +20,4 @@ const ItemDetailsModal = ({
   isOpen,
   onClose,
   onBuy,
+  isConnected,
