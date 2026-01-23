@@ -142,3 +142,4 @@ const ActiveItemsList = () => {
           {items.map((item) => (
             <div
               key={item.itemId}
+              className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden border border-gray-100 cursor-pointer"
