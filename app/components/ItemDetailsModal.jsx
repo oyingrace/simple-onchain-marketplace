@@ -69,3 +69,4 @@ const ItemDetailsModal = ({
               />
             </div>
 
+            {/* Details */}
