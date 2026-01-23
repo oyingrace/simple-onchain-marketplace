@@ -125,3 +125,4 @@ const ItemDetailsModal = ({
                   ? "Connect Wallet to Buy"
                   : !item.isActive
                   ? "Item Not Available"
+                  : "Buy Now"}
