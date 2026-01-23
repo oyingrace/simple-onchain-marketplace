@@ -127,3 +127,4 @@ const ItemDetailsModal = ({
                   ? "Item Not Available"
                   : "Buy Now"}
               </button>
+            </div>
