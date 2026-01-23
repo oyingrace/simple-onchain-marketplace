@@ -13,3 +13,4 @@ import ItemDetailsModal from "./ItemDetailsModal.jsx";
  */
 const ActiveItemsList = () => {
   const {
+    isConnected,
