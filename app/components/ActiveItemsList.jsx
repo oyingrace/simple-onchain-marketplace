@@ -39,3 +39,4 @@ const ActiveItemsList = () => {
   const loadActiveItems = async () => {
     setLoading(true);
     try {
+      const result = await getActiveItems();
