@@ -22,3 +22,4 @@ const ActiveItemsList = () => {
   } = useContract();
 
   const [items, setItems] = useState([]);
+  const [loading, setLoading] = useState(false);
