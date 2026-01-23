@@ -27,3 +27,4 @@ const ActiveItemsList = () => {
   const [sellerInfo, setSellerInfo] = useState({});
 
   useEffect(() => {
+    loadActiveItems();
