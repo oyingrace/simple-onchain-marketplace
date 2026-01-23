@@ -131,3 +131,4 @@ const ActiveItemsList = () => {
         <div className="text-center py-12">
           <p className="text-gray-500">Loading items from blockchain...</p>
         </div>
+      ) : items.length === 0 ? (
