@@ -37,3 +37,4 @@ const ItemDetailsModal = ({
     }
   };
 
+  return (
