@@ -111,3 +111,4 @@ const ItemDetailsModal = ({
                     : formatEthPrice(item.price)}
                 </p>
               </div>
+
