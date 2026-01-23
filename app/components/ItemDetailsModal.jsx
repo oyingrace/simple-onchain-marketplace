@@ -95,3 +95,4 @@ const ItemDetailsModal = ({
                 <p className="text-sm text-gray-600 mb-2">Description</p>
                 <p className="text-gray-900">{item.description || "No description provided."}</p>
               </div>
+
