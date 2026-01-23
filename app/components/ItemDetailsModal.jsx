@@ -23,3 +23,4 @@ const ItemDetailsModal = ({
   isConnected,
   sellerName,
 }) => {
+  if (!isOpen || !item) return null;
