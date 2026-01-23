@@ -30,3 +30,4 @@ const ItemDetailsModal = ({
       onBuy(item.itemId, item.name, item.price);
     }
   };
+
