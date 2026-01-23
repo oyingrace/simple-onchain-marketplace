@@ -25,3 +25,4 @@ const ItemDetailsModal = ({
 }) => {
   if (!isOpen || !item) return null;
 
+  const handleBuy = () => {
