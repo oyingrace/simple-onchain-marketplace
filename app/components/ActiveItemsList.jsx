@@ -160,3 +160,4 @@ const ActiveItemsList = () => {
               </div>
 
               {/* Content */}
+              <div className="p-4">
