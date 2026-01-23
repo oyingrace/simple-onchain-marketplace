@@ -30,3 +30,4 @@ const ActiveItemsList = () => {
     loadActiveItems();
   }, []);
 
+  useEffect(() => {
