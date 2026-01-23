@@ -42,3 +42,4 @@ const ActiveItemsList = () => {
       const result = await getActiveItems();
       if (result?.success && Array.isArray(result.items)) {
         // Format items for display
+        const formattedItems = result.items.map((item) => ({
