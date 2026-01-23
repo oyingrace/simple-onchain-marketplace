@@ -214,3 +214,4 @@ const ActiveItemsList = () => {
       {selectedItem && (
         <ItemDetailsModal
           item={selectedItem}
+          isOpen={!!selectedItem}
