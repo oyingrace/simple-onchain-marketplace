@@ -53,3 +53,4 @@ const ActiveItemsList = () => {
           isActive: item.isActive,
         }));
         setItems(formattedItems);
+      } else {
