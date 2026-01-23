@@ -190,3 +190,4 @@ const ActiveItemsList = () => {
                   onClick={(e) => {
                     e.stopPropagation();
                     handleBuy(item.itemId, item.name, item.price);
+                  }}
