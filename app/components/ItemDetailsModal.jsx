@@ -75,3 +75,4 @@ const ItemDetailsModal = ({
                 <h3 className="text-2xl font-bold text-gray-900 mb-2">
                   {item.name}
                 </h3>
+                <div className="flex items-center gap-2 mb-4">
