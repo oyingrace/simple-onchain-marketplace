@@ -194,3 +194,4 @@ const ActiveItemsList = () => {
                   disabled={!isConnected || !item.isActive}
                   className={`w-full font-medium py-2 px-3 rounded-md transition-colors duration-200 text-sm ${
                     !isConnected || !item.isActive
+                      ? "bg-gray-300 text-gray-500 cursor-not-allowed"
