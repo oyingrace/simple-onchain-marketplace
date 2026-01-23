@@ -54,3 +54,4 @@ const ActiveItemsList = () => {
         }));
         setItems(formattedItems);
       } else {
+        setItems([]);
