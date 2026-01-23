@@ -17,3 +17,4 @@ const ActiveItemsList = () => {
     buyItem,
     getActiveItems,
     getSellerForItem,
+    message,
