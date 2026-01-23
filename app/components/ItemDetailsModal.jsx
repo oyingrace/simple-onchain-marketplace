@@ -126,3 +126,4 @@ const ItemDetailsModal = ({
                   : !item.isActive
                   ? "Item Not Available"
                   : "Buy Now"}
+              </button>
