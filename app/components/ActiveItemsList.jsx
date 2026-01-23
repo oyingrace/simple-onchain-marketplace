@@ -157,3 +157,4 @@ const ActiveItemsList = () => {
                     }}
                   />
                 </div>
+              </div>
