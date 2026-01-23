@@ -15,3 +15,4 @@ const ActiveItemsList = () => {
   const {
     isConnected,
     buyItem,
+    getActiveItems,
