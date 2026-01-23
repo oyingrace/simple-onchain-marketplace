@@ -217,3 +217,4 @@ const ActiveItemsList = () => {
           isOpen={!!selectedItem}
           onClose={() => setSelectedItem(null)}
           onBuy={handleBuy}
+          isConnected={isConnected}
