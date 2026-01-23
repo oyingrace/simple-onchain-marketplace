@@ -71,3 +71,4 @@ const ActiveItemsList = () => {
         setSellerInfo((prev) => ({
           ...prev,
           [itemId]: result.seller,
+        }));
