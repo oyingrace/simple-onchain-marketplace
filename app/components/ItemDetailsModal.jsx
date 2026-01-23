@@ -85,3 +85,4 @@ const ItemDetailsModal = ({
                   >
                     {item.isActive ? "Active" : "Inactive"}
                   </span>
+                  <span className="text-xs text-gray-500">
