@@ -72,3 +72,4 @@ const ActiveItemsList = () => {
           ...prev,
           [itemId]: result.seller,
         }));
+      }
