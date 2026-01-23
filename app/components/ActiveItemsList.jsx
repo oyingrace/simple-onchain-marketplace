@@ -110,3 +110,4 @@ const ActiveItemsList = () => {
       {message && (
         <div
           className={`p-3 rounded-md text-sm ${
+            message.includes("✅")
