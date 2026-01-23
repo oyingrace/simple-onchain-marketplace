@@ -135,3 +135,4 @@ const ItemDetailsModal = ({
   );
 };
 
+export default ItemDetailsModal;
