@@ -24,3 +24,4 @@ const ItemDetailsModal = ({
   sellerName,
 }) => {
   if (!isOpen || !item) return null;
+
