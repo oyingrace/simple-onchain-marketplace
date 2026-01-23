@@ -117,3 +117,4 @@ const ItemDetailsModal = ({
                 disabled={!isConnected || !item.isActive}
                 className={`w-full py-3 px-4 rounded-lg font-medium transition-colors duration-200 ${
                   !isConnected || !item.isActive
+                    ? "bg-gray-300 text-gray-500 cursor-not-allowed"
