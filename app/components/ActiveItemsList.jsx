@@ -212,3 +212,4 @@ const ActiveItemsList = () => {
 
       {/* Item Details Modal */}
       {selectedItem && (
+        <ItemDetailsModal
