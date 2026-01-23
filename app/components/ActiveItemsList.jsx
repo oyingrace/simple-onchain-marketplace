@@ -99,3 +99,4 @@ const ActiveItemsList = () => {
           </p>
         </div>
         <button
+          onClick={loadActiveItems}
