@@ -51,3 +51,4 @@ const ActiveItemsList = () => {
           imageUrl: item.imageUrl,
           seller: item.seller,
           isActive: item.isActive,
+        }));
