@@ -76,3 +76,4 @@ const ItemDetailsModal = ({
                   {item.name}
                 </h3>
                 <div className="flex items-center gap-2 mb-4">
+                  <span
