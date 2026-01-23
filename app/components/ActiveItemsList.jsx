@@ -167,3 +167,4 @@ const ActiveItemsList = () => {
 
                 {sellerInfo[item.itemId] && (
                   <div className="text-xs text-gray-500 mb-2">
+                    Seller: {sellerInfo[item.itemId].name}
