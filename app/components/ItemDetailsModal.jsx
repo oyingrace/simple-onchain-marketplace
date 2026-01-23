@@ -67,3 +67,4 @@ const ItemDetailsModal = ({
                   e.target.src = "/placeholder-image.png";
                 }}
               />
+            </div>
