@@ -15,3 +15,4 @@ import { formatEthPrice } from "../../lib/contract.js";
  * - isConnected: boolean
  * - sellerName?: string (optional seller name)
  */
+const ItemDetailsModal = ({
