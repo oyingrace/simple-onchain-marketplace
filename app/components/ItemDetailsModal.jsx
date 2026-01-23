@@ -107,3 +107,4 @@ const ItemDetailsModal = ({
                 <p className="text-sm text-gray-600 mb-2">Price</p>
                 <p className="text-3xl font-bold text-indigo-600">
                   {typeof item.price === "string"
+                    ? item.price
