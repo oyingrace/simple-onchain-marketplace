@@ -114,3 +114,4 @@ const ItemDetailsModal = ({
 
               <button
                 onClick={handleBuy}
+                disabled={!isConnected || !item.isActive}
