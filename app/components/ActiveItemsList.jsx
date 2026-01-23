@@ -40,3 +40,4 @@ const ActiveItemsList = () => {
     setLoading(true);
     try {
       const result = await getActiveItems();
+      if (result?.success && Array.isArray(result.items)) {
