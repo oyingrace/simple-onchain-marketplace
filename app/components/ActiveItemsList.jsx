@@ -175,3 +175,4 @@ const ActiveItemsList = () => {
                   <span className="text-lg font-bold text-indigo-600">
                     {item.price}
                   </span>
+                  <span
