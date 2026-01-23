@@ -32,3 +32,4 @@ const ActiveItemsList = () => {
 
   useEffect(() => {
     if (selectedItem) {
+      loadSellerInfo(selectedItem.itemId);
