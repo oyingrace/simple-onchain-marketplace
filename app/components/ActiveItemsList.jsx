@@ -210,3 +210,4 @@ const ActiveItemsList = () => {
         </div>
       )}
 
+      {/* Item Details Modal */}
