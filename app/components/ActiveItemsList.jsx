@@ -37,3 +37,4 @@ const ActiveItemsList = () => {
   }, [selectedItem]);
 
   const loadActiveItems = async () => {
+    setLoading(true);
