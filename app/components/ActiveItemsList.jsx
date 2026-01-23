@@ -215,3 +215,4 @@ const ActiveItemsList = () => {
         <ItemDetailsModal
           item={selectedItem}
           isOpen={!!selectedItem}
+          onClose={() => setSelectedItem(null)}
