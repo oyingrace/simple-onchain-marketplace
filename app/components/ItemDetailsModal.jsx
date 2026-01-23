@@ -21,3 +21,4 @@ const ItemDetailsModal = ({
   onClose,
   onBuy,
   isConnected,
+  sellerName,
