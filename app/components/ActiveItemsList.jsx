@@ -137,3 +137,4 @@ const ActiveItemsList = () => {
             No active items found. Sellers can create items to get started!
           </p>
         </div>
+      ) : (
