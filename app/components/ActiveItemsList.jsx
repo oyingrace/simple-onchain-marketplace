@@ -83,3 +83,4 @@ const ActiveItemsList = () => {
     if (success) {
       setSelectedItem(null);
       // Optionally reload items after purchase
+      setTimeout(() => {
