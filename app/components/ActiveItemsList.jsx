@@ -31,3 +31,4 @@ const ActiveItemsList = () => {
   }, []);
 
   useEffect(() => {
+    if (selectedItem) {
