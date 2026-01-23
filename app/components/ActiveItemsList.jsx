@@ -155,3 +155,4 @@ const ActiveItemsList = () => {
                     onError={(e) => {
                       e.target.src = "/placeholder-image.png";
                     }}
+                  />
