@@ -16,3 +16,4 @@ const ActiveItemsList = () => {
     isConnected,
     buyItem,
     getActiveItems,
+    getSellerForItem,
