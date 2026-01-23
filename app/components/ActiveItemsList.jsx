@@ -191,3 +191,4 @@ const ActiveItemsList = () => {
                     e.stopPropagation();
                     handleBuy(item.itemId, item.name, item.price);
                   }}
+                  disabled={!isConnected || !item.isActive}
