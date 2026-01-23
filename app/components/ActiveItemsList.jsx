@@ -149,3 +149,4 @@ const ActiveItemsList = () => {
               <div className="relative bg-gray-50 p-4">
                 <div className="aspect-square w-full flex items-center justify-center">
                   <img
+                    src={item.imageUrl}
