@@ -101,3 +101,4 @@ const ItemDetailsModal = ({
                 <p className="text-gray-900 font-medium">
                   {sellerName || `${item.seller?.slice(0, 6)}...${item.seller?.slice(-4)}`}
                 </p>
+              </div>
