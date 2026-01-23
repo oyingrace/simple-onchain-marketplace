@@ -28,3 +28,4 @@ const ItemDetailsModal = ({
   const handleBuy = () => {
     if (onBuy && isConnected) {
       onBuy(item.itemId, item.name, item.price);
+    }
