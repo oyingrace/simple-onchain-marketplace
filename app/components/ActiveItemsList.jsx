@@ -173,3 +173,4 @@ const ActiveItemsList = () => {
 
                 <div className="flex items-center justify-between mb-3">
                   <span className="text-lg font-bold text-indigo-600">
+                    {item.price}
