@@ -221,3 +221,4 @@ const ActiveItemsList = () => {
           sellerName={sellerInfo[selectedItem.itemId]?.name}
         />
       )}
+    </div>
