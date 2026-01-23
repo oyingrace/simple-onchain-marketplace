@@ -208,3 +208,4 @@ const ActiveItemsList = () => {
             </div>
           ))}
         </div>
+      )}
