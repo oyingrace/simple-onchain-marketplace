@@ -100,3 +100,4 @@ const ActiveItemsList = () => {
         </div>
         <button
           onClick={loadActiveItems}
+          disabled={loading}
