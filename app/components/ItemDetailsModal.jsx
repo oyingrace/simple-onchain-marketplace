@@ -31,3 +31,4 @@ const ItemDetailsModal = ({
     }
   };
 
+  const handleBackdropClick = (e) => {
