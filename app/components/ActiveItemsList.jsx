@@ -19,3 +19,4 @@ const ActiveItemsList = () => {
     getSellerForItem,
     message,
     clearMessage,
+  } = useContract();
