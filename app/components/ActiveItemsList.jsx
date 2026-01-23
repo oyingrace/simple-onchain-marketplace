@@ -146,3 +146,4 @@ const ActiveItemsList = () => {
               onClick={() => setSelectedItem(item)}
             >
               {/* Image */}
+              <div className="relative bg-gray-50 p-4">
