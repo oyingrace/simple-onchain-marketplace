@@ -123,3 +123,4 @@ const ActiveItemsList = () => {
             className="ml-2 text-gray-400 hover:text-gray-600"
           >
             ×
+          </button>
