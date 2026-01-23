@@ -106,3 +106,4 @@ const ItemDetailsModal = ({
               <div className="pt-4 border-t border-gray-200">
                 <p className="text-sm text-gray-600 mb-2">Price</p>
                 <p className="text-3xl font-bold text-indigo-600">
+                  {typeof item.price === "string"
