@@ -192,3 +192,4 @@ const ActiveItemsList = () => {
                     handleBuy(item.itemId, item.name, item.price);
                   }}
                   disabled={!isConnected || !item.isActive}
+                  className={`w-full font-medium py-2 px-3 rounded-md transition-colors duration-200 text-sm ${
