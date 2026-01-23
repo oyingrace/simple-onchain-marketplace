@@ -52,3 +52,4 @@ const ActiveItemsList = () => {
           seller: item.seller,
           isActive: item.isActive,
         }));
+        setItems(formattedItems);
