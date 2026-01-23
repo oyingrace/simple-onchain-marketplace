@@ -219,3 +219,5 @@ const ActiveItemsList = () => {
           onBuy={handleBuy}
           isConnected={isConnected}
           sellerName={sellerInfo[selectedItem.itemId]?.name}
+        />
+      )}
