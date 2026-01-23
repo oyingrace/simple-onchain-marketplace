@@ -29,3 +29,4 @@ const ItemDetailsModal = ({
     if (onBuy && isConnected) {
       onBuy(item.itemId, item.name, item.price);
     }
+  };
