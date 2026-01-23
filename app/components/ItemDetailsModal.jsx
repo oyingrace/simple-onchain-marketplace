@@ -102,3 +102,4 @@ const ItemDetailsModal = ({
                   {sellerName || `${item.seller?.slice(0, 6)}...${item.seller?.slice(-4)}`}
                 </p>
               </div>
+
