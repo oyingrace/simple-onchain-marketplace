@@ -62,3 +62,4 @@ const ItemDetailsModal = ({
               <img
                 src={item.imageUrl}
                 alt={item.name}
+                className="max-w-full max-h-[300px] object-contain"
