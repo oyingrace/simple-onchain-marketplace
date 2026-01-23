@@ -97,3 +97,4 @@ const ActiveItemsList = () => {
           <p className="text-sm text-gray-600 mt-1">
             Browse all active items from the blockchain
           </p>
+        </div>
