@@ -73,3 +73,4 @@ const ActiveItemsList = () => {
           [itemId]: result.seller,
         }));
       }
+    } catch (error) {
