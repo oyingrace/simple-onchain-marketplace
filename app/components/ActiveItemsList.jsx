@@ -202,3 +202,4 @@ const ActiveItemsList = () => {
                     ? "Connect Wallet"
                     : !item.isActive
                     ? "Not Available"
+                    : "Buy Now"}
