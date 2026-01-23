@@ -13,3 +13,4 @@ import { formatEthPrice } from "../../lib/contract.js";
  * - onClose: () => void
  * - onBuy: (itemId, itemName, price) => void
  * - isConnected: boolean
+ * - sellerName?: string (optional seller name)
