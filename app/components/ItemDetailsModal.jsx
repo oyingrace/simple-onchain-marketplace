@@ -48,3 +48,4 @@ const ItemDetailsModal = ({
           <h2 className="text-2xl font-bold text-gray-900">Item Details</h2>
           <button
             onClick={onClose}
+            className="text-gray-400 hover:text-gray-600 text-2xl leading-none"
