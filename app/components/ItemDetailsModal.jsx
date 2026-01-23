@@ -83,3 +83,4 @@ const ItemDetailsModal = ({
                         : "bg-gray-100 text-gray-500"
                     }`}
                   >
+                    {item.isActive ? "Active" : "Inactive"}
