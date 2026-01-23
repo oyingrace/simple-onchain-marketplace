@@ -161,3 +161,4 @@ const ActiveItemsList = () => {
 
               {/* Content */}
               <div className="p-4">
+                <h3 className="text-base font-semibold text-gray-900 mb-2 line-clamp-2">
