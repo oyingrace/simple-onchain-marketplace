@@ -88,3 +88,4 @@ const ItemDetailsModal = ({
                   <span className="text-xs text-gray-500">
                     Item #{item.itemId}
                   </span>
+                </div>
