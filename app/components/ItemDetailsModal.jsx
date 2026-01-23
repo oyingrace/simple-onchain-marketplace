@@ -8,3 +8,4 @@ import { formatEthPrice } from "../../lib/contract.js";
  * Displays detailed information about an item in a modal
  * 
  * Props:
+ * - item: { itemId, name, description, price, imageUrl, seller, isActive }
