@@ -114,3 +114,4 @@ const ActiveItemsList = () => {
               ? "bg-green-50 text-green-700"
               : message.includes("❌")
               ? "bg-red-50 text-red-700"
+              : "bg-blue-50 text-blue-700"
