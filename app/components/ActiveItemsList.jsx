@@ -112,3 +112,4 @@ const ActiveItemsList = () => {
           className={`p-3 rounded-md text-sm ${
             message.includes("✅")
               ? "bg-green-50 text-green-700"
+              : message.includes("❌")
