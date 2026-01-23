@@ -71,3 +71,4 @@ const ItemDetailsModal = ({
 
             {/* Details */}
             <div className="space-y-4">
+              <div>
