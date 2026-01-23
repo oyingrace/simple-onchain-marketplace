@@ -123,3 +123,4 @@ const ItemDetailsModal = ({
               >
                 {!isConnected
                   ? "Connect Wallet to Buy"
+                  : !item.isActive
