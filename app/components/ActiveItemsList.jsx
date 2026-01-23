@@ -152,3 +152,4 @@ const ActiveItemsList = () => {
                     src={item.imageUrl}
                     alt={item.name}
                     className="w-full h-full object-contain hover:scale-105 transition-transform duration-300"
+                    onError={(e) => {
