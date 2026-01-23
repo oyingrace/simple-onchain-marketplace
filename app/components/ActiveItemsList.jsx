@@ -70,3 +70,4 @@ const ActiveItemsList = () => {
       if (result?.success && result.seller) {
         setSellerInfo((prev) => ({
           ...prev,
+          [itemId]: result.seller,
