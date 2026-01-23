@@ -200,3 +200,4 @@ const ActiveItemsList = () => {
                 >
                   {!isConnected
                     ? "Connect Wallet"
+                    : !item.isActive
