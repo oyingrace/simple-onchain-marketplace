@@ -10,3 +10,4 @@ import { formatEthPrice } from "../../lib/contract.js";
  * Props:
  * - item: { itemId, name, description, price, imageUrl, seller, isActive }
  * - isOpen: boolean
+ * - onClose: () => void
