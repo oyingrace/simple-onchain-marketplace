@@ -164,3 +164,5 @@ const ActiveItemsList = () => {
                 <h3 className="text-base font-semibold text-gray-900 mb-2 line-clamp-2">
                   {item.name}
                 </h3>
+
+                {sellerInfo[item.itemId] && (
