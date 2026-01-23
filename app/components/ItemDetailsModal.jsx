@@ -74,3 +74,4 @@ const ItemDetailsModal = ({
               <div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-2">
                   {item.name}
+                </h3>
