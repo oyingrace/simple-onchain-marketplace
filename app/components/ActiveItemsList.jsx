@@ -78,3 +78,4 @@ const ActiveItemsList = () => {
     }
   };
 
+  const handleBuy = async (itemId, itemName, price) => {
