@@ -119,3 +119,4 @@ const ActiveItemsList = () => {
         >
           {message}
           <button
+            onClick={clearMessage}
