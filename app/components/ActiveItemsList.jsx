@@ -35,3 +35,4 @@ const ActiveItemsList = () => {
       loadSellerInfo(selectedItem.itemId);
     }
   }, [selectedItem]);
+
