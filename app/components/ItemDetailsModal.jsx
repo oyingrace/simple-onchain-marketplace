@@ -89,3 +89,4 @@ const ItemDetailsModal = ({
                     Item #{item.itemId}
                   </span>
                 </div>
+              </div>
