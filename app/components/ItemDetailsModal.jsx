@@ -52,3 +52,4 @@ const ItemDetailsModal = ({
           >
             ×
           </button>
+        </div>
