@@ -43,3 +43,4 @@ const ItemDetailsModal = ({
       onClick={handleBackdropClick}
     >
       <div className="bg-white rounded-lg shadow-xl max-w-2xl w-full max-h-[90vh] overflow-y-auto">
+        {/* Header */}
