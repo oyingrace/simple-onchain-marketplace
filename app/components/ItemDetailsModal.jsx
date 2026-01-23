@@ -35,3 +35,4 @@ const ItemDetailsModal = ({
     if (e.target === e.currentTarget) {
       onClose();
     }
+  };
