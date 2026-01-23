@@ -44,3 +44,4 @@ const ActiveItemsList = () => {
         // Format items for display
         const formattedItems = result.items.map((item) => ({
           itemId: item.itemId?.toString() || `${item.itemId}`,
+          name: item.name,
