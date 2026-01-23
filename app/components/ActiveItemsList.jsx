@@ -150,3 +150,4 @@ const ActiveItemsList = () => {
                 <div className="aspect-square w-full flex items-center justify-center">
                   <img
                     src={item.imageUrl}
+                    alt={item.name}
