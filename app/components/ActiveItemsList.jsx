@@ -205,3 +205,4 @@ const ActiveItemsList = () => {
                     : "Buy Now"}
                 </button>
               </div>
+            </div>
