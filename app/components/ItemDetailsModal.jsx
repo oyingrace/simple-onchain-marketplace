@@ -121,3 +121,4 @@ const ItemDetailsModal = ({
                     : "bg-indigo-600 hover:bg-indigo-700 text-white"
                 }`}
               >
+                {!isConnected
