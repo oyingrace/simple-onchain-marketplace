@@ -66,3 +66,5 @@ const ActiveItemsList = () => {
 
   const loadSellerInfo = async (itemId) => {
     try {
+      const result = await getSellerForItem(itemId);
+      if (result?.success && result.seller) {
