@@ -61,3 +61,4 @@ const ActiveItemsList = () => {
       setItems([]);
     } finally {
       setLoading(false);
+    }
