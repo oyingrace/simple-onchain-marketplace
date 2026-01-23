@@ -177,3 +177,4 @@ const ActiveItemsList = () => {
                   </span>
                   <span
                     className={`text-xs px-2 py-1 rounded-full ${
+                      item.isActive
