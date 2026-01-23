@@ -136,3 +136,4 @@ const ActiveItemsList = () => {
           <p className="text-gray-500">
             No active items found. Sellers can create items to get started!
           </p>
+        </div>
