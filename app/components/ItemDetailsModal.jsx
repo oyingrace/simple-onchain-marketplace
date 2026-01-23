@@ -58,3 +58,4 @@ const ItemDetailsModal = ({
         <div className="p-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Image */}
+            <div className="bg-gray-50 rounded-lg p-4 flex items-center justify-center min-h-[300px]">
