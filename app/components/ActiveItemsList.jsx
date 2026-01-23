@@ -21,3 +21,4 @@ const ActiveItemsList = () => {
     clearMessage,
   } = useContract();
 
+  const [items, setItems] = useState([]);
