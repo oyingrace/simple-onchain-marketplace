@@ -26,3 +26,4 @@ const ItemDetailsModal = ({
   if (!isOpen || !item) return null;
 
   const handleBuy = () => {
+    if (onBuy && isConnected) {
