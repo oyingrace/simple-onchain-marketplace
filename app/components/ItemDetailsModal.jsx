@@ -84,3 +84,4 @@ const ItemDetailsModal = ({
                     }`}
                   >
                     {item.isActive ? "Active" : "Inactive"}
+                  </span>
