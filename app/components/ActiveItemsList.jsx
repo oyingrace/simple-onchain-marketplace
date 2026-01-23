@@ -38,3 +38,4 @@ const ActiveItemsList = () => {
 
   const loadActiveItems = async () => {
     setLoading(true);
+    try {
