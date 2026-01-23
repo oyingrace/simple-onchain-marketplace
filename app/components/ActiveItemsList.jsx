@@ -82,3 +82,4 @@ const ActiveItemsList = () => {
     const success = await buyItem(itemId, itemName, price);
     if (success) {
       setSelectedItem(null);
+      // Optionally reload items after purchase
