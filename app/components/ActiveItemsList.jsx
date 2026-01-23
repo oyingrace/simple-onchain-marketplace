@@ -81,3 +81,4 @@ const ActiveItemsList = () => {
   const handleBuy = async (itemId, itemName, price) => {
     const success = await buyItem(itemId, itemName, price);
     if (success) {
+      setSelectedItem(null);
