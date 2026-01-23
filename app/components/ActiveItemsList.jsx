@@ -26,3 +26,4 @@ const ActiveItemsList = () => {
   const [selectedItem, setSelectedItem] = useState(null);
   const [sellerInfo, setSellerInfo] = useState({});
 
+  useEffect(() => {
