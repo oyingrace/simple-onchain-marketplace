@@ -187,3 +187,4 @@ const ActiveItemsList = () => {
                 </div>
 
                 <button
+                  onClick={(e) => {
