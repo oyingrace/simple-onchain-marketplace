@@ -60,3 +60,4 @@ const ActiveItemsList = () => {
       console.error("Error loading active items:", error);
       setItems([]);
     } finally {
+      setLoading(false);
