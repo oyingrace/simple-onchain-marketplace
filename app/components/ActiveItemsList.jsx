@@ -98,3 +98,4 @@ const ActiveItemsList = () => {
             Browse all active items from the blockchain
           </p>
         </div>
+        <button
