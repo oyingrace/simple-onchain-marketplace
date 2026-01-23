@@ -46,3 +46,4 @@ const ActiveItemsList = () => {
           itemId: item.itemId?.toString() || `${item.itemId}`,
           name: item.name,
           description: item.description,
+          price: formatEthPrice(item.price),
