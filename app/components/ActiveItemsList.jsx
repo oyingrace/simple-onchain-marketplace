@@ -95,3 +95,4 @@ const ActiveItemsList = () => {
         <div>
           <h2 className="text-2xl font-bold text-gray-900">Marketplace</h2>
           <p className="text-sm text-gray-600 mt-1">
+            Browse all active items from the blockchain
