@@ -131,3 +131,4 @@ const ItemDetailsModal = ({
           </div>
         </div>
       </div>
+    </div>
