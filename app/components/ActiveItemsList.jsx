@@ -127,3 +127,4 @@ const ActiveItemsList = () => {
         </div>
       )}
 
+      {loading ? (
