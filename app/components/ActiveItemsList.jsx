@@ -18,3 +18,4 @@ const ActiveItemsList = () => {
     getActiveItems,
     getSellerForItem,
     message,
+    clearMessage,
