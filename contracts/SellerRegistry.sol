@@ -15,6 +15,7 @@ contract SellerRegistry {
 
     event SellerRegistered(address indexed seller, string name);
     event ItemAssignedToSeller(uint indexed itemId, address indexed seller);
+    event SellerUnregistered(address indexed seller, string reason);
 
     // Register as a seller
     function registerSeller(string memory _name) external {
@@ -41,6 +42,16 @@ contract SellerRegistry {
         sellers[_seller].itemCount++;
         
         emit ItemAssignedToSeller(_itemId, _seller);
+    }
+
+    function unregisterSeller(string memory _reason) external {
+        require(sellers[msg.sender].isRegistered, "Seller not registered");
+        
+        sellers[msg.sender].isRegistered = false;
+ 
+        // The array maintains historical record of all ever-registered sellers
+        
+        emit SellerUnregistered(msg.sender, _reason);
     }
 
     // Get seller information
